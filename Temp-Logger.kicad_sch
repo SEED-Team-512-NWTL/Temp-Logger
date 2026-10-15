@@ -2,9 +2,273 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid 9c5f4d5b-9930-4cae-a7d7-03685cadac72)
+	(uuid "9c5f4d5b-9930-4cae-a7d7-03685cadac72")
 	(paper "A4")
+	(title_block
+		(title "Temperature Logger")
+		(date "2026-10-14")
+		(rev "1")
+		(company "UVM SEED Team 512 - NWTL")
+	)
 	(lib_symbols)
+	(wire
+		(pts
+			(xy 101.6 96.52) (xy 139.7 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25bd5123-eecc-480c-80d0-5e625ec51a9b")
+	)
+	(wire
+		(pts
+			(xy 101.6 92.71) (xy 139.7 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e14918c-afbc-44f5-b3a1-e9a9b607bf17")
+	)
+	(wire
+		(pts
+			(xy 165.1 96.52) (xy 203.2 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8028ca32-e022-4816-8d23-b4252e2d6227")
+	)
+	(wire
+		(pts
+			(xy 165.1 92.71) (xy 203.2 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a208fab4-0196-440b-a740-202d9594cb57")
+	)
+	(sheet
+		(at 76.2 76.2)
+		(size 25.4 40.64)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "53e949a7-dd0c-4c38-bd3a-324c9d9ba541")
+		(property "Sheetname" "Temperature Sensor"
+			(at 76.2 75.4884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "temp_sense.kicad_sch"
+			(at 76.2 117.4246 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SCL" input
+			(at 101.6 96.52 0)
+			(uuid "5db53786-5607-4f67-9e31-3c5fe8946336")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SDA" bidirectional
+			(at 101.6 92.71 0)
+			(uuid "5c2b18a1-6811-4bd2-a2cb-c4eb9f108cc2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Temp-Logger"
+				(path "/9c5f4d5b-9930-4cae-a7d7-03685cadac72"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 139.7 76.2)
+		(size 25.4 40.64)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "5949b796-b27c-401d-9ebd-ef26434c1104")
+		(property "Sheetname" "Microcontroller"
+			(at 139.7 75.4884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "microcontroller.kicad_sch"
+			(at 139.7 117.4246 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "TX-" output
+			(at 165.1 96.52 0)
+			(uuid "b83c0c75-21b7-47ad-876f-db767d750f96")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TX+" output
+			(at 165.1 92.71 0)
+			(uuid "41627a3d-e12b-4989-89c9-619e318d3b55")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SCL" output
+			(at 139.7 96.52 180)
+			(uuid "fd85b5f1-61ee-4717-aa7f-534929a54e02")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDA" bidirectional
+			(at 139.7 92.71 180)
+			(uuid "7ed9e382-0337-48d6-b816-059d5cac938a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Temp-Logger"
+				(path "/9c5f4d5b-9930-4cae-a7d7-03685cadac72"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 203.2 76.2)
+		(size 25.4 40.64)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "d1fd4ee4-c022-4d81-a23f-44e5fd1e6551")
+		(property "Sheetname" "Transciever"
+			(at 203.2 75.4884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "transciever.kicad_sch"
+			(at 203.2 117.4246 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "TX-" input
+			(at 203.2 96.52 180)
+			(uuid "f2139908-46aa-498c-82c5-5d9a2bb709f2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TX+" input
+			(at 203.2 92.71 180)
+			(uuid "f8d5a9d8-9377-4f93-b358-aab5275de17f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Temp-Logger"
+				(path "/9c5f4d5b-9930-4cae-a7d7-03685cadac72"
+					(page "4")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
