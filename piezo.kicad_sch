@@ -1,0 +1,36 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "feb8d6fd-8df2-4629-96b1-8e8067523e3d")
+	(paper "A4")
+	(title_block
+		(title "Temperature Logger")
+		(date "2026-10-14")
+		(rev "1")
+		(company "UVM SEED Team 512 - NWTL")
+	)
+	(lib_symbols)
+	(hierarchical_label "TX+"
+		(shape input)
+		(at 123.19 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8c0edd72-7f0f-49e1-b21e-ccb2163f96e1")
+	)
+	(hierarchical_label "TX-"
+		(shape input)
+		(at 123.19 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8f6f4c39-3a4b-4fdb-8b0b-030b34f8cb2a")
+	)
+)

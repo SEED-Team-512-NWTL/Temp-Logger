@@ -416,7 +416,7 @@
         "uuid": "9c5f4d5b-9930-4cae-a7d7-03685cadac72"
       }
     ],
-    "used_designators": "C1-2,#PWR1-5,TP1-4,U1",
+    "used_designators": "TP1-8,#PWR1-15,R1-4,C1-12,U1-2",
     "variants": []
   },
   "sheets": [
@@ -425,16 +425,32 @@
       "Root"
     ],
     [
-      "53e949a7-dd0c-4c38-bd3a-324c9d9ba541",
+      "fcea2aa9-9943-4e17-9260-3f9a95f3f7ce",
+      "Transmitter"
+    ],
+    [
+      "8722ad6e-d449-40f5-b9d3-e719432ce7be",
+      "Receiver"
+    ],
+    [
+      "884b15ae-8be4-44a6-965a-c8c9c57e660a",
+      "TX Microcontroller"
+    ],
+    [
+      "4f5d38fa-95d2-4cdb-9eb7-dd6290791f28",
       "Temperature Sensor"
     ],
     [
-      "5949b796-b27c-401d-9ebd-ef26434c1104",
-      "Microcontroller"
+      "c3629570-a093-47e6-a19a-b1d25f71c5ae",
+      "Piezoelectric"
     ],
     [
-      "d1fd4ee4-c022-4d81-a23f-44e5fd1e6551",
-      "Transciever"
+      "24815342-ec6a-4578-82aa-62ef3138cf18",
+      "RX Microcontroller"
+    ],
+    [
+      "c440c1e4-2139-472c-9713-de5e8ecf5fb0",
+      "USB to UART"
     ]
   ],
   "text_variables": {},

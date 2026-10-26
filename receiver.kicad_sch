@@ -1,0 +1,100 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "8b44e1f2-1838-4354-8d98-b7047552abc8")
+	(paper "A4")
+	(title_block
+		(title "Temperature Logger")
+		(date "2026-10-14")
+		(rev "1")
+		(company "UVM SEED Team 512 - NWTL")
+	)
+	(lib_symbols)
+	(sheet
+		(at 130.81 77.47)
+		(size 25.4 40.64)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "24815342-ec6a-4578-82aa-62ef3138cf18")
+		(property "Sheetname" "RX Microcontroller"
+			(at 130.81 76.7584 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "rx_microcontroller.kicad_sch"
+			(at 130.81 118.6946 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "TX-" output
+			(at 156.21 97.79 0)
+			(uuid "42643404-336a-432a-a227-99ecaf5af49e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TX+" output
+			(at 156.21 93.98 0)
+			(uuid "de45f4b6-ecaf-4e3b-abb6-508b9fbb7ef9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SCL" output
+			(at 130.81 97.79 180)
+			(uuid "d7381de8-eb54-48ed-a5db-306ea8ae4f80")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDA" bidirectional
+			(at 130.81 93.98 180)
+			(uuid "36e32c87-8fbc-4cd0-9853-78c2aafcd5c0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Temp-Logger"
+				(path "/9c5f4d5b-9930-4cae-a7d7-03685cadac72/8722ad6e-d449-40f5-b9d3-e719432ce7be"
+					(page "7")
+				)
+			)
+		)
+	)
+)

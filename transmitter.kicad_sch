@@ -1,0 +1,252 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "8b44e1f2-1838-4354-8d98-b7047552abc8")
+	(paper "A4")
+	(title_block
+		(title "Temperature Logger")
+		(date "2026-10-14")
+		(rev "1")
+		(company "UVM SEED Team 512 - NWTL")
+	)
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 97.79 99.06) (xy 135.89 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53f8c80d-ae48-4496-a03b-1e946343de51")
+	)
+	(wire
+		(pts
+			(xy 97.79 95.25) (xy 135.89 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81dd3f91-fdce-4a20-872c-c4e00dc47532")
+	)
+	(sheet
+		(at 72.39 78.74)
+		(size 25.4 40.64)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "4f5d38fa-95d2-4cdb-9eb7-dd6290791f28")
+		(property "Sheetname" "Temperature Sensor"
+			(at 72.39 78.0284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "temp_sense.kicad_sch"
+			(at 72.39 119.9646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SCL" input
+			(at 97.79 99.06 0)
+			(uuid "c862c9b3-749c-4abe-9431-8679272d7d5e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SDA" bidirectional
+			(at 97.79 95.25 0)
+			(uuid "beec0812-28b6-4df5-97d3-00f47bb8f991")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Temp-Logger"
+				(path "/9c5f4d5b-9930-4cae-a7d7-03685cadac72/fcea2aa9-9943-4e17-9260-3f9a95f3f7ce"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 135.89 78.74)
+		(size 25.4 40.64)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "884b15ae-8be4-44a6-965a-c8c9c57e660a")
+		(property "Sheetname" "TX Microcontroller"
+			(at 135.89 78.0284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "tx_microcontroller.kicad_sch"
+			(at 135.89 119.9646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "TX-" output
+			(at 161.29 99.06 0)
+			(uuid "580e657c-be4d-4e87-95a7-d751b7fff7bb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TX+" output
+			(at 161.29 95.25 0)
+			(uuid "739e8a44-bd5f-4307-bed2-9a5705259c94")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SCL" output
+			(at 135.89 99.06 180)
+			(uuid "b236366d-32d6-45cb-9c19-9a043dcb642c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDA" bidirectional
+			(at 135.89 95.25 180)
+			(uuid "f1e86528-70dd-4892-b4a5-ba8a60e86b97")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Temp-Logger"
+				(path "/9c5f4d5b-9930-4cae-a7d7-03685cadac72/fcea2aa9-9943-4e17-9260-3f9a95f3f7ce"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 199.39 78.74)
+		(size 25.4 40.64)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "c3629570-a093-47e6-a19a-b1d25f71c5ae")
+		(property "Sheetname" "Piezoelectric"
+			(at 199.39 78.0284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "piezo.kicad_sch"
+			(at 199.39 119.9646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "TX-" input
+			(at 199.39 99.06 180)
+			(uuid "02ef9d68-e16e-4c24-a24d-484f289ec19b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TX+" input
+			(at 199.39 95.25 180)
+			(uuid "19ad0918-0e1e-421a-92af-0d9e43b84b26")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Temp-Logger"
+				(path "/9c5f4d5b-9930-4cae-a7d7-03685cadac72/fcea2aa9-9943-4e17-9260-3f9a95f3f7ce"
+					(page "6")
+				)
+			)
+		)
+	)
+)
