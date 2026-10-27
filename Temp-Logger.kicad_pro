@@ -416,7 +416,7 @@
         "uuid": "9c5f4d5b-9930-4cae-a7d7-03685cadac72"
       }
     ],
-    "used_designators": "TP1-8,#PWR1-15,R1-4,C1-12,U1-2",
+    "used_designators": "TP1-13,Y1,U1-7,U11,R1-30,R42-53,L1-3,Q1-8,#PWR1-48,#PWR62-77,#PWR111-128,D1-5,D9-10,D15-18,C1-31,C37-51,J1-2,J21,J23",
     "variants": []
   },
   "sheets": [
@@ -451,6 +451,14 @@
     [
       "c440c1e4-2139-472c-9713-de5e8ecf5fb0",
       "USB to UART"
+    ],
+    [
+      "03c7fc19-206f-471e-8e88-67f99f0945a0",
+      "FT2232"
+    ],
+    [
+      "62cbc598-afeb-43b8-824c-00b48c1ef8c1",
+      "USB Receptical"
     ]
   ],
   "text_variables": {},

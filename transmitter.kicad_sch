@@ -13,6 +13,26 @@
 	(lib_symbols)
 	(wire
 		(pts
+			(xy 161.29 139.7) (xy 243.84 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0caad793-9b45-44e6-bb2e-30f66c3ad82d")
+	)
+	(wire
+		(pts
+			(xy 161.29 135.89) (xy 243.84 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d26969b-3d92-4461-b2da-9b6243549066")
+	)
+	(wire
+		(pts
 			(xy 97.79 99.06) (xy 135.89 99.06)
 		)
 		(stroke
@@ -20,6 +40,16 @@
 			(type default)
 		)
 		(uuid "53f8c80d-ae48-4496-a03b-1e946343de51")
+	)
+	(wire
+		(pts
+			(xy 161.29 132.08) (xy 243.84 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f13414e-7fae-4e58-b74f-c9bcfbe860c5")
 	)
 	(wire
 		(pts
@@ -31,6 +61,60 @@
 		)
 		(uuid "81dd3f91-fdce-4a20-872c-c4e00dc47532")
 	)
+	(wire
+		(pts
+			(xy 161.29 143.51) (xy 243.84 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2630c18-09e1-46cf-8b8f-53b3b91d6368")
+	)
+	(hierarchical_label "nRF_UTXD_A"
+		(shape output)
+		(at 243.84 132.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "66cf3b89-2e16-4194-ad93-888791e2f477")
+	)
+	(hierarchical_label "nRF_~{RESET}_A"
+		(shape input)
+		(at 243.84 139.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "70abc063-5060-4f83-9917-1abc6550f96a")
+	)
+	(hierarchical_label "BOOT_A"
+		(shape input)
+		(at 243.84 143.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "80f567bf-02ce-4fd7-9ad8-0dd40ee0b9e7")
+	)
+	(hierarchical_label "nRF_URXD_A"
+		(shape input)
+		(at 243.84 135.89 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b6971c26-7f6d-4ba5-8ea8-b911de989246")
+	)
 	(sheet
 		(at 72.39 78.74)
 		(size 25.4 40.64)
@@ -40,11 +124,11 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
-			(width 0.1524)
+			(width 0.254)
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0)
+			(color 255 255 194 1)
 		)
 		(uuid "4f5d38fa-95d2-4cdb-9eb7-dd6290791f28")
 		(property "Sheetname" "Temperature Sensor"
@@ -99,22 +183,22 @@
 	)
 	(sheet
 		(at 135.89 78.74)
-		(size 25.4 40.64)
+		(size 25.4 73.66)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
-			(width 0.1524)
+			(width 0.254)
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0)
+			(color 255 255 194 1)
 		)
 		(uuid "884b15ae-8be4-44a6-965a-c8c9c57e660a")
 		(property "Sheetname" "TX Microcontroller"
-			(at 135.89 78.0284 0)
+			(at 135.89 77.9776 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -125,7 +209,7 @@
 			)
 		)
 		(property "Sheetfile" "tx_microcontroller.kicad_sch"
-			(at 135.89 119.9646 0)
+			(at 135.89 153.0354 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -133,26 +217,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
-			)
-		)
-		(pin "TX-" output
-			(at 161.29 99.06 0)
-			(uuid "580e657c-be4d-4e87-95a7-d751b7fff7bb")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "TX+" output
-			(at 161.29 95.25 0)
-			(uuid "739e8a44-bd5f-4307-bed2-9a5705259c94")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 		(pin "SCL" output
@@ -175,6 +239,66 @@
 				(justify left)
 			)
 		)
+		(pin "BOOT_A" input
+			(at 161.29 143.51 0)
+			(uuid "979016fc-9d98-4338-ab1a-ef69f5e8e17a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "nRF_URXD_A" input
+			(at 161.29 135.89 0)
+			(uuid "09b30656-2d35-497d-bc01-54e4abd0945a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "nRF_~{RESET}_A" input
+			(at 161.29 139.7 0)
+			(uuid "d2a9bf70-4e86-47da-8960-23e0c550fa82")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "nRF_UTXD_A" output
+			(at 161.29 132.08 0)
+			(uuid "9c2005ce-c0cd-40f7-bb7e-877dbb01bfed")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PWM-" output
+			(at 161.29 99.06 0)
+			(uuid "f7d7609d-2e8f-4469-9b07-53b381ad5539")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PWM+" output
+			(at 161.29 95.25 0)
+			(uuid "b0084f2f-f176-4ce1-a366-4cfa475c3e38")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "Temp-Logger"
 				(path "/9c5f4d5b-9930-4cae-a7d7-03685cadac72/fcea2aa9-9943-4e17-9260-3f9a95f3f7ce"
@@ -192,11 +316,11 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
-			(width 0.1524)
+			(width 0.254)
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0)
+			(color 255 255 194 1)
 		)
 		(uuid "c3629570-a093-47e6-a19a-b1d25f71c5ae")
 		(property "Sheetname" "Piezoelectric"
