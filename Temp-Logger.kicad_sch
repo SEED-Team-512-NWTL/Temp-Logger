@@ -236,6 +236,16 @@
 	)
 	(wire
 		(pts
+			(xy 193.04 85.09) (xy 205.74 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ee7b8e3-af4a-48c8-93aa-f69d739b8528")
+	)
+	(wire
+		(pts
 			(xy 101.6 85.09) (xy 114.3 85.09)
 		)
 		(stroke
@@ -243,6 +253,26 @@
 			(type default)
 		)
 		(uuid "2594dfb9-2ec8-4302-b6d1-21eeded2e409")
+	)
+	(wire
+		(pts
+			(xy 193.04 88.9) (xy 205.74 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3afe6c25-d4fe-4694-b746-18c7fc2a24d4")
+	)
+	(wire
+		(pts
+			(xy 172.72 101.6) (xy 205.74 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "484c7c93-80a0-426c-94f0-a2a1a7ef50af")
 	)
 	(wire
 		(pts
@@ -276,6 +306,16 @@
 	)
 	(wire
 		(pts
+			(xy 172.72 85.09) (xy 185.42 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a99a575-1fe2-4ee3-b140-eff6aeba924e")
+	)
+	(wire
+		(pts
 			(xy 101.6 105.41) (xy 134.62 105.41)
 		)
 		(stroke
@@ -286,6 +326,16 @@
 	)
 	(wire
 		(pts
+			(xy 172.72 88.9) (xy 185.42 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c63097e6-465e-4f5c-9c6e-646fadc5707c")
+	)
+	(wire
+		(pts
 			(xy 101.6 88.9) (xy 114.3 88.9)
 		)
 		(stroke
@@ -293,6 +343,240 @@
 			(type default)
 		)
 		(uuid "da707e76-42d8-4a8b-ad94-830e3aa37f29")
+	)
+	(wire
+		(pts
+			(xy 172.72 105.41) (xy 205.74 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0817b57-f1f5-44b3-be58-a5ea6c5cc5d8")
+	)
+	(symbol
+		(lib_id "AERO_Resistors:R_0603")
+		(at 189.23 85.09 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "090fad6c-599a-4ce7-a80d-8c88630c113d")
+		(property "Reference" "R3"
+			(at 189.23 78.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 189.23 81.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 190.5 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 189.23 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 189.23 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power" "100mW"
+			(at 186.69 83.058 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+					(thickness 0.0794)
+				)
+			)
+		)
+		(property "Package" "0603"
+			(at 190.5 83.058 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+					(thickness 0.0794)
+				)
+			)
+		)
+		(property "Tolerance" "x%"
+			(at 193.04 83.058 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+					(thickness 0.0794)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f3786585-e0c7-4451-a637-4da577607fdb")
+		)
+		(pin "1"
+			(uuid "5ff11c5a-771c-4c4c-8fc5-850a95af3359")
+		)
+		(instances
+			(project "Temp-Logger"
+				(path "/9c5f4d5b-9930-4cae-a7d7-03685cadac72"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "AERO_Resistors:R_0603")
+		(at 189.23 88.9 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4ba60eb0-2056-4743-a0f8-fada8b34355f")
+		(property "Reference" "R4"
+			(at 189.23 91.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 189.23 93.98 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 190.5 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 189.23 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 189.23 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power" "100mW"
+			(at 186.69 95.758 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+					(thickness 0.0794)
+				)
+			)
+		)
+		(property "Package" "0603"
+			(at 190.5 95.758 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+					(thickness 0.0794)
+				)
+			)
+		)
+		(property "Tolerance" "x%"
+			(at 193.04 95.758 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+					(thickness 0.0794)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "dff3390a-4c6c-463c-a73a-195889d32d67")
+		)
+		(pin "1"
+			(uuid "397b9b24-3758-489c-bf28-aac404c2667f")
+		)
+		(instances
+			(project "Temp-Logger"
+				(path "/9c5f4d5b-9930-4cae-a7d7-03685cadac72"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "AERO_Resistors:R_0603")
@@ -305,7 +589,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a4cbd314-c154-4b27-9a20-9dd60075c668")
-		(property "Reference" "R22"
+		(property "Reference" "R1"
 			(at 118.11 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -400,7 +684,7 @@
 		(instances
 			(project "Temp-Logger"
 				(path "/9c5f4d5b-9930-4cae-a7d7-03685cadac72"
-					(reference "R22")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -417,7 +701,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b933f8ef-9c14-4611-b414-8ec1cc86b9a6")
-		(property "Reference" "R23"
+		(property "Reference" "R2"
 			(at 118.11 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -512,14 +796,14 @@
 		(instances
 			(project "Temp-Logger"
 				(path "/9c5f4d5b-9930-4cae-a7d7-03685cadac72"
-					(reference "R23")
+					(reference "R2")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(sheet
-		(at 203.2 76.2)
+		(at 205.74 76.2)
 		(size 38.1 38.1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -535,7 +819,7 @@
 		)
 		(uuid "8722ad6e-d449-40f5-b9d3-e719432ce7be")
 		(property "Sheetname" "Receiver"
-			(at 203.2 75.4884 0)
+			(at 205.74 75.4884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -546,7 +830,93 @@
 			)
 		)
 		(property "Sheetfile" "receiver.kicad_sch"
-			(at 203.2 114.8846 0)
+			(at 205.74 114.8846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "nRF_URXD_B" input
+			(at 205.74 85.09 180)
+			(uuid "89b27a64-75ea-47e3-9de1-8b970b3c14d0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "nRF_~{RESET}_B" input
+			(at 205.74 101.6 180)
+			(uuid "0b9c7490-62bd-44bb-945b-30e5d13fd230")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "nRF_UTXD_B" output
+			(at 205.74 88.9 180)
+			(uuid "88dd9c20-da61-47f2-bb0e-caca039e886e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BOOT_B" input
+			(at 205.74 105.41 180)
+			(uuid "a6996da3-932c-4ce6-add5-c6faf7f00b58")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Temp-Logger"
+				(path "/9c5f4d5b-9930-4cae-a7d7-03685cadac72"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 142.24 124.46)
+		(size 22.86 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1)
+		)
+		(uuid "a115d2fc-01e6-4c7c-8f9d-8729c1eac3b6")
+		(property "Sheetname" "Power"
+			(at 142.24 123.6976 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 142.24 137.7954 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -559,7 +929,7 @@
 		(instances
 			(project "Temp-Logger"
 				(path "/9c5f4d5b-9930-4cae-a7d7-03685cadac72"
-					(page "3")
+					(page "12")
 				)
 			)
 		)

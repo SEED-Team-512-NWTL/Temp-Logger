@@ -11,6 +11,110 @@
 		(company "UVM SEED Team 512 - NWTL")
 	)
 	(lib_symbols)
+	(wire
+		(pts
+			(xy 101.6 83.82) (xy 130.81 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f731e90-8da9-4540-b451-44c2240ce169")
+	)
+	(wire
+		(pts
+			(xy 156.21 99.06) (xy 175.26 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "354fdc8b-0873-47e6-acbb-e377269cc644")
+	)
+	(wire
+		(pts
+			(xy 101.6 107.95) (xy 130.81 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d3bb428-d332-4b54-86c7-df12f53c75f5")
+	)
+	(wire
+		(pts
+			(xy 101.6 111.76) (xy 130.81 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3d6fe2a-5cc5-4ad4-9f03-a13cb2db3c4a")
+	)
+	(wire
+		(pts
+			(xy 156.21 95.25) (xy 175.26 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7324710-535a-4132-a274-add252cb9cbf")
+	)
+	(wire
+		(pts
+			(xy 101.6 87.63) (xy 130.81 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe9a4afd-a2a2-477b-b2f7-6057d1cd692f")
+	)
+	(hierarchical_label "BOOT_B"
+		(shape input)
+		(at 101.6 107.95 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "50aa378f-0882-4db7-a72b-dabdabc66d57")
+	)
+	(hierarchical_label "nRF_~{RESET}_B"
+		(shape input)
+		(at 101.6 111.76 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a32d8577-cb92-458c-9fa3-a66704b80b24")
+	)
+	(hierarchical_label "nRF_URXD_B"
+		(shape input)
+		(at 101.6 83.82 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c2804f56-4d9a-4437-a74c-bbb20f29673b")
+	)
+	(hierarchical_label "nRF_UTXD_B"
+		(shape output)
+		(at 101.6 87.63 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f2d22d3e-809c-4a5d-9462-389060e9238c")
+	)
 	(sheet
 		(at 130.81 77.47)
 		(size 25.4 40.64)
@@ -20,11 +124,11 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
-			(width 0.1524)
+			(width 0.254)
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0)
+			(color 255 255 194 1)
 		)
 		(uuid "24815342-ec6a-4578-82aa-62ef3138cf18")
 		(property "Sheetname" "RX Microcontroller"
@@ -49,29 +153,9 @@
 				(justify left top)
 			)
 		)
-		(pin "TX-" output
-			(at 156.21 97.79 0)
-			(uuid "42643404-336a-432a-a227-99ecaf5af49e")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "TX+" output
-			(at 156.21 93.98 0)
-			(uuid "de45f4b6-ecaf-4e3b-abb6-508b9fbb7ef9")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "SCL" output
-			(at 130.81 97.79 180)
-			(uuid "d7381de8-eb54-48ed-a5db-306ea8ae4f80")
+		(pin "nRF_URXD_B" input
+			(at 130.81 83.82 180)
+			(uuid "adab2873-2188-4140-b409-c7938d9be09f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -79,9 +163,49 @@
 				(justify left)
 			)
 		)
-		(pin "SDA" bidirectional
-			(at 130.81 93.98 180)
-			(uuid "36e32c87-8fbc-4cd0-9853-78c2aafcd5c0")
+		(pin "nRF_~{RESET}_B" input
+			(at 130.81 111.76 180)
+			(uuid "f714c6f2-0437-45e5-986e-0ee80c45096d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BOOT_B" input
+			(at 130.81 107.95 180)
+			(uuid "f94d672a-511b-4fd9-bca6-a405d6e0f188")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PWM-" input
+			(at 156.21 99.06 0)
+			(uuid "861f4660-ed85-4bca-be78-1c1f168069d6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PWM+" input
+			(at 156.21 95.25 0)
+			(uuid "1b28b066-1a11-4e60-baea-d80fa4ad7792")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "nRF_UTXD_B" output
+			(at 130.81 87.63 180)
+			(uuid "119658b3-5e23-473f-bcff-7a8d21bb75c7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -93,6 +217,72 @@
 			(project "Temp-Logger"
 				(path "/9c5f4d5b-9930-4cae-a7d7-03685cadac72/8722ad6e-d449-40f5-b9d3-e719432ce7be"
 					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 175.26 77.47)
+		(size 25.4 40.64)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1)
+		)
+		(uuid "e89cf95b-fb60-44a5-9f2e-e0e3227c6da9")
+		(property "Sheetname" "Piezoelectric"
+			(at 175.26 76.7584 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "piezo_RX.kicad_sch"
+			(at 175.26 118.6946 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "PWM+" output
+			(at 175.26 95.25 180)
+			(uuid "24c5113a-dd1b-4f93-af91-998f86b07ea1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PWM-" output
+			(at 175.26 99.06 180)
+			(uuid "3e760875-9262-4a93-8814-3039590a79c6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Temp-Logger"
+				(path "/9c5f4d5b-9930-4cae-a7d7-03685cadac72/8722ad6e-d449-40f5-b9d3-e719432ce7be"
+					(page "11")
 				)
 			)
 		)

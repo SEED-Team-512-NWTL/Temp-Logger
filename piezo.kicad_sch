@@ -11,26 +11,26 @@
 		(company "UVM SEED Team 512 - NWTL")
 	)
 	(lib_symbols)
-	(hierarchical_label "TX+"
-		(shape input)
-		(at 123.19 86.36 0)
+	(hierarchical_label "PWM+"
+		(shape output)
+		(at 139.7 95.25 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "8c0edd72-7f0f-49e1-b21e-ccb2163f96e1")
+		(uuid "1d08a4b1-6dbb-43b7-8930-e64ab32f12fd")
 	)
-	(hierarchical_label "TX-"
-		(shape input)
-		(at 123.19 83.82 0)
+	(hierarchical_label "PWM-"
+		(shape output)
+		(at 139.7 97.79 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "8f6f4c39-3a4b-4fdb-8b0b-030b34f8cb2a")
+		(uuid "6c6614dd-9517-42c9-8e98-694e0924a885")
 	)
 )

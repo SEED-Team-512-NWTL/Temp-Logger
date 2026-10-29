@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "Team_512_Oscillators") (type "KiCad") (uri "/Users/georgehurd/Documents/GitHub/SEED Team 512/Component-Library/Footprints/Team_512_Oscillators.pretty") (options "") (descr ""))
+)

@@ -969,7 +969,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "81c959e1-5466-4f8a-9dc6-63028555bcf1")
-		(property "Reference" "U3"
+		(property "Reference" "U6"
 			(at 157.226 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1048,7 +1048,85 @@
 		(instances
 			(project "Temp-Logger"
 				(path "/9c5f4d5b-9930-4cae-a7d7-03685cadac72/c440c1e4-2139-472c-9713-de5e8ecf5fb0"
-					(reference "U3")
+					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 152.4 87.63 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a4b8d172-226c-4d5c-af26-9259e89ba13d")
+		(property "Reference" "#PWR032"
+			(at 152.4 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 152.4 82.55 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 152.4 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 152.4 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8adb1054-5416-48fb-8b7c-b6def81541c6")
+		)
+		(instances
+			(project "Temp-Logger"
+				(path "/9c5f4d5b-9930-4cae-a7d7-03685cadac72/c440c1e4-2139-472c-9713-de5e8ecf5fb0"
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -1066,7 +1144,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b92d92df-8202-4326-b00a-06026e2f07aa")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR033"
 			(at 152.4 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -1126,85 +1204,7 @@
 		(instances
 			(project "Temp-Logger"
 				(path "/9c5f4d5b-9930-4cae-a7d7-03685cadac72/c440c1e4-2139-472c-9713-de5e8ecf5fb0"
-					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 152.4 87.63 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e7e31073-7cd3-4d56-b8de-4bdec835dab5")
-		(property "Reference" "#PWR016"
-			(at 152.4 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "5V"
-			(at 152.4 82.55 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 152.4 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 152.4 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 152.4 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1628275e-8981-4cb8-9d1b-47bbfe5bf746")
-		)
-		(instances
-			(project "Temp-Logger"
-				(path "/9c5f4d5b-9930-4cae-a7d7-03685cadac72/c440c1e4-2139-472c-9713-de5e8ecf5fb0"
-					(reference "#PWR016")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)

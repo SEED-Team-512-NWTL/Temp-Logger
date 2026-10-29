@@ -3209,6 +3209,12 @@
 		(uuid "4a88b20d-fdd8-4437-a51e-e2632a3948b8")
 	)
 	(junction
+		(at 184.15 226.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4ae0343e-9b37-4af8-bd34-bf2b02233203")
+	)
+	(junction
 		(at 228.6 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3293,12 +3299,6 @@
 		(uuid "a183239d-4ffa-45cb-81ee-e525df7789ab")
 	)
 	(junction
-		(at 184.15 226.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a29aafa8-1fc8-4b9c-bd60-91a2a6181eeb")
-	)
-	(junction
 		(at 171.45 226.06)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3345,12 +3345,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d44db103-0f41-4983-8529-00b53ae5f5a6")
-	)
-	(junction
-		(at 186.69 226.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d485b416-5a06-441d-be37-12b971a699c7")
 	)
 	(junction
 		(at 161.29 226.06)
@@ -3980,6 +3974,16 @@
 	)
 	(wire
 		(pts
+			(xy 184.15 226.06) (xy 184.15 229.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25a496fb-fc73-48d4-a186-523f9b17c98f")
+	)
+	(wire
+		(pts
 			(xy 186.69 85.09) (xy 186.69 82.55)
 		)
 		(stroke
@@ -4117,16 +4121,6 @@
 			(type default)
 		)
 		(uuid "40917396-9b11-412d-b904-01b1860c40dc")
-	)
-	(wire
-		(pts
-			(xy 186.69 226.06) (xy 186.69 229.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "417c93ec-9989-4068-8de3-20df4befb733")
 	)
 	(wire
 		(pts
@@ -4687,16 +4681,6 @@
 			(type default)
 		)
 		(uuid "9189eebb-3018-44eb-8a61-b62ad9e71b2f")
-	)
-	(wire
-		(pts
-			(xy 186.69 224.79) (xy 186.69 226.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9438001a-5b93-4787-96bc-c3f54ba1c307")
 	)
 	(wire
 		(pts
@@ -5410,16 +5394,6 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 226.06) (xy 186.69 226.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e5ff7b69-11d7-40ab-8747-7dad59199767")
-	)
-	(wire
-		(pts
 			(xy 184.15 111.76) (xy 184.15 113.03)
 		)
 		(stroke
@@ -5880,7 +5854,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "007026e4-1297-4d67-a651-015af473d1a0")
-		(property "Reference" "U4"
+		(property "Reference" "U7"
 			(at 191.3733 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6130,7 +6104,7 @@
 		(instances
 			(project "Temp-Logger"
 				(path "/9c5f4d5b-9930-4cae-a7d7-03685cadac72/c440c1e4-2139-472c-9713-de5e8ecf5fb0/03c7fc19-206f-471e-8e88-67f99f0945a0"
-					(reference "U4")
+					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -6233,7 +6207,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0a23f608-bd3e-4bb9-afb5-ae09dc39a6e8")
-		(property "Reference" "R9"
+		(property "Reference" "R22"
 			(at 293.37 135.89 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6328,7 +6302,7 @@
 		(instances
 			(project "Temp-Logger"
 				(path "/9c5f4d5b-9930-4cae-a7d7-03685cadac72/c440c1e4-2139-472c-9713-de5e8ecf5fb0/03c7fc19-206f-471e-8e88-67f99f0945a0"
-					(reference "R9")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -6346,7 +6320,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0dd2b876-1b22-4ebe-ae27-9f8ea1ac21a8")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR046"
 			(at 238.76 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -6406,7 +6380,7 @@
 		(instances
 			(project "Temp-Logger"
 				(path "/9c5f4d5b-9930-4cae-a7d7-03685cadac72/c440c1e4-2139-472c-9713-de5e8ecf5fb0/03c7fc19-206f-471e-8e88-67f99f0945a0"
-					(reference "#PWR030")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -6424,7 +6398,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "11424e24-2985-4b4f-aa5c-5ceabd98d03d")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR042"
 			(at 139.7 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -6484,7 +6458,7 @@
 		(instances
 			(project "Temp-Logger"
 				(path "/9c5f4d5b-9930-4cae-a7d7-03685cadac72/c440c1e4-2139-472c-9713-de5e8ecf5fb0/03c7fc19-206f-471e-8e88-67f99f0945a0"
-					(reference "#PWR026")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -6502,7 +6476,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "11b832dd-83a0-4507-b103-62f08e0f7927")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR050"
 			(at 322.58 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -6562,7 +6536,7 @@
 		(instances
 			(project "Temp-Logger"
 				(path "/9c5f4d5b-9930-4cae-a7d7-03685cadac72/c440c1e4-2139-472c-9713-de5e8ecf5fb0/03c7fc19-206f-471e-8e88-67f99f0945a0"
-					(reference "#PWR034")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -6579,7 +6553,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2465d9ff-3056-4606-be42-ba1e49cb1467")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR041"
 			(at 139.7 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -6639,7 +6613,7 @@
 		(instances
 			(project "Temp-Logger"
 				(path "/9c5f4d5b-9930-4cae-a7d7-03685cadac72/c440c1e4-2139-472c-9713-de5e8ecf5fb0/03c7fc19-206f-471e-8e88-67f99f0945a0"
-					(reference "#PWR025")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -6657,7 +6631,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2719f053-5ba4-4c1c-849b-391b58bb687e")
-		(property "Reference" "C26"
+		(property "Reference" "C46"
 			(at 241.3 101.6062 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6721,7 +6695,7 @@
 		(instances
 			(project "Temp-Logger"
 				(path "/9c5f4d5b-9930-4cae-a7d7-03685cadac72/c440c1e4-2139-472c-9713-de5e8ecf5fb0/03c7fc19-206f-471e-8e88-67f99f0945a0"
-					(reference "C26")
+					(reference "C46")
 					(unit 1)
 				)
 			)
@@ -6917,7 +6891,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "33bc7cdc-dbf9-4d1e-8d29-aad2faa9c590")
-		(property "Reference" "C17"
+		(property "Reference" "C37"
 			(at 130.81 87.6362 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6981,7 +6955,7 @@
 		(instances
 			(project "Temp-Logger"
 				(path "/9c5f4d5b-9930-4cae-a7d7-03685cadac72/c440c1e4-2139-472c-9713-de5e8ecf5fb0/03c7fc19-206f-471e-8e88-67f99f0945a0"
-					(reference "C17")
+					(reference "C37")
 					(unit 1)
 				)
 			)
@@ -6997,10 +6971,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "3c07c4e8-d22c-42d7-8ff9-c7f0b0856ed0")
-		(property "Reference" "Y1"
-			(at 109.22 200.66 0)
+		(property "Reference" "Y3"
+			(at 104.14 202.438 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7010,7 +6983,7 @@
 			)
 		)
 		(property "Value" "ABM8AIG-12.000MHZ-12-2Z-T3"
-			(at 109.22 203.2 0)
+			(at 118.872 204.47 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7067,7 +7040,7 @@
 		(instances
 			(project "Temp-Logger"
 				(path "/9c5f4d5b-9930-4cae-a7d7-03685cadac72/c440c1e4-2139-472c-9713-de5e8ecf5fb0/03c7fc19-206f-471e-8e88-67f99f0945a0"
-					(reference "Y1")
+					(reference "Y3")
 					(unit 1)
 				)
 			)
@@ -7170,7 +7143,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "40fcbfb7-9492-464e-bba1-0f6c4d7ecad5")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR036"
 			(at 109.22 236.22 0)
 			(hide yes)
 			(show_name no)
@@ -7230,7 +7203,7 @@
 		(instances
 			(project "Temp-Logger"
 				(path "/9c5f4d5b-9930-4cae-a7d7-03685cadac72/c440c1e4-2139-472c-9713-de5e8ecf5fb0/03c7fc19-206f-471e-8e88-67f99f0945a0"
-					(reference "#PWR020")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -7247,7 +7220,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "42b536dc-98ca-497e-9df7-264da2cf8f62")
-		(property "Reference" "R8"
+		(property "Reference" "R21"
 			(at 271.78 87.6301 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7344,7 +7317,7 @@
 		(instances
 			(project "Temp-Logger"
 				(path "/9c5f4d5b-9930-4cae-a7d7-03685cadac72/c440c1e4-2139-472c-9713-de5e8ecf5fb0/03c7fc19-206f-471e-8e88-67f99f0945a0"
-					(reference "R8")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -7361,7 +7334,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "468a0d16-0b7c-4cf2-9423-611122e7ef4e")
-		(property "Reference" "R6"
+		(property "Reference" "R19"
 			(at 115.57 158.7499 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7458,7 +7431,7 @@
 		(instances
 			(project "Temp-Logger"
 				(path "/9c5f4d5b-9930-4cae-a7d7-03685cadac72/c440c1e4-2139-472c-9713-de5e8ecf5fb0/03c7fc19-206f-471e-8e88-67f99f0945a0"
-					(reference "R6")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -7569,7 +7542,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "614295ad-bded-4513-a9c8-824b09ca95f3")
-		(property "Reference" "C22"
+		(property "Reference" "C42"
 			(at 209.55 101.6062 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7633,7 +7606,7 @@
 		(instances
 			(project "Temp-Logger"
 				(path "/9c5f4d5b-9930-4cae-a7d7-03685cadac72/c440c1e4-2139-472c-9713-de5e8ecf5fb0/03c7fc19-206f-471e-8e88-67f99f0945a0"
-					(reference "C22")
+					(reference "C42")
 					(unit 1)
 				)
 			)
@@ -7744,7 +7717,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6d1da1f1-fcc7-460b-b551-7c5e914723ec")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR035"
 			(at 93.98 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -7804,7 +7777,7 @@
 		(instances
 			(project "Temp-Logger"
 				(path "/9c5f4d5b-9930-4cae-a7d7-03685cadac72/c440c1e4-2139-472c-9713-de5e8ecf5fb0/03c7fc19-206f-471e-8e88-67f99f0945a0"
-					(reference "#PWR019")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -7822,7 +7795,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7f25a4fe-23cf-4016-9864-beb68ad642bd")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR048"
 			(at 274.32 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -7882,7 +7855,7 @@
 		(instances
 			(project "Temp-Logger"
 				(path "/9c5f4d5b-9930-4cae-a7d7-03685cadac72/c440c1e4-2139-472c-9713-de5e8ecf5fb0/03c7fc19-206f-471e-8e88-67f99f0945a0"
-					(reference "#PWR032")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -7899,7 +7872,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7ffc0b83-4743-4938-8577-0f6d044b11ea")
-		(property "Reference" "C12"
+		(property "Reference" "C32"
 			(at 86.36 214.63 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8009,7 +7982,7 @@
 		(instances
 			(project "Temp-Logger"
 				(path "/9c5f4d5b-9930-4cae-a7d7-03685cadac72/c440c1e4-2139-472c-9713-de5e8ecf5fb0/03c7fc19-206f-471e-8e88-67f99f0945a0"
-					(reference "C12")
+					(reference "C32")
 					(unit 1)
 				)
 			)
@@ -8027,7 +8000,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8c92e9ae-1dd5-4815-a3d7-8366fbb28b22")
-		(property "Reference" "C24"
+		(property "Reference" "C44"
 			(at 220.98 101.6062 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8091,7 +8064,7 @@
 		(instances
 			(project "Temp-Logger"
 				(path "/9c5f4d5b-9930-4cae-a7d7-03685cadac72/c440c1e4-2139-472c-9713-de5e8ecf5fb0/03c7fc19-206f-471e-8e88-67f99f0945a0"
-					(reference "C24")
+					(reference "C44")
 					(unit 1)
 				)
 			)
@@ -8109,7 +8082,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8d6dc19a-1150-4d7d-9c02-0e624c63024c")
-		(property "Reference" "R12"
+		(property "Reference" "R25"
 			(at 293.37 207.01 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8204,7 +8177,7 @@
 		(instances
 			(project "Temp-Logger"
 				(path "/9c5f4d5b-9930-4cae-a7d7-03685cadac72/c440c1e4-2139-472c-9713-de5e8ecf5fb0/03c7fc19-206f-471e-8e88-67f99f0945a0"
-					(reference "R12")
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -8221,7 +8194,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "93264622-67b1-4ede-ae68-20e8f8ca3110")
-		(property "Reference" "R7"
+		(property "Reference" "R20"
 			(at 136.652 156.718 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8316,7 +8289,7 @@
 		(instances
 			(project "Temp-Logger"
 				(path "/9c5f4d5b-9930-4cae-a7d7-03685cadac72/c440c1e4-2139-472c-9713-de5e8ecf5fb0/03c7fc19-206f-471e-8e88-67f99f0945a0"
-					(reference "R7")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -8334,7 +8307,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "93a130ee-2c5d-418a-9e6b-26e46bbeeba6")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR034"
 			(at 69.85 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -8394,7 +8367,7 @@
 		(instances
 			(project "Temp-Logger"
 				(path "/9c5f4d5b-9930-4cae-a7d7-03685cadac72/c440c1e4-2139-472c-9713-de5e8ecf5fb0/03c7fc19-206f-471e-8e88-67f99f0945a0"
-					(reference "#PWR018")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -8505,7 +8478,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "95579609-c0dc-4967-acbc-e71f6f42f4a6")
-		(property "Reference" "C21"
+		(property "Reference" "C41"
 			(at 200.66 78.7462 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8569,7 +8542,7 @@
 		(instances
 			(project "Temp-Logger"
 				(path "/9c5f4d5b-9930-4cae-a7d7-03685cadac72/c440c1e4-2139-472c-9713-de5e8ecf5fb0/03c7fc19-206f-471e-8e88-67f99f0945a0"
-					(reference "C21")
+					(reference "C41")
 					(unit 1)
 				)
 			)
@@ -8587,7 +8560,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "989abc3f-d84b-4c95-812c-d1cf583bf38e")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR039"
 			(at 125.73 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -8647,7 +8620,7 @@
 		(instances
 			(project "Temp-Logger"
 				(path "/9c5f4d5b-9930-4cae-a7d7-03685cadac72/c440c1e4-2139-472c-9713-de5e8ecf5fb0/03c7fc19-206f-471e-8e88-67f99f0945a0"
-					(reference "#PWR023")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -8665,7 +8638,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9da9b671-38f9-4319-98f1-ad7b4875ec2b")
-		(property "Reference" "C20"
+		(property "Reference" "C40"
 			(at 189.23 78.7462 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8729,7 +8702,7 @@
 		(instances
 			(project "Temp-Logger"
 				(path "/9c5f4d5b-9930-4cae-a7d7-03685cadac72/c440c1e4-2139-472c-9713-de5e8ecf5fb0/03c7fc19-206f-471e-8e88-67f99f0945a0"
-					(reference "C20")
+					(reference "C40")
 					(unit 1)
 				)
 			)
@@ -8746,7 +8719,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a8ebe5e9-ae2a-4bbd-a364-7a9eb3410c5a")
-		(property "Reference" "R15"
+		(property "Reference" "R28"
 			(at 342.9 87.6301 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8843,7 +8816,7 @@
 		(instances
 			(project "Temp-Logger"
 				(path "/9c5f4d5b-9930-4cae-a7d7-03685cadac72/c440c1e4-2139-472c-9713-de5e8ecf5fb0/03c7fc19-206f-471e-8e88-67f99f0945a0"
-					(reference "R15")
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -8860,7 +8833,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ad86e891-ce2c-4021-944c-0381d6abdb1b")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR040"
 			(at 130.81 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -8920,7 +8893,7 @@
 		(instances
 			(project "Temp-Logger"
 				(path "/9c5f4d5b-9930-4cae-a7d7-03685cadac72/c440c1e4-2139-472c-9713-de5e8ecf5fb0/03c7fc19-206f-471e-8e88-67f99f0945a0"
-					(reference "#PWR024")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -8938,7 +8911,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b89c4490-9abc-491d-906f-c9bb8d4ea990")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR045"
 			(at 208.28 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -8998,7 +8971,7 @@
 		(instances
 			(project "Temp-Logger"
 				(path "/9c5f4d5b-9930-4cae-a7d7-03685cadac72/c440c1e4-2139-472c-9713-de5e8ecf5fb0/03c7fc19-206f-471e-8e88-67f99f0945a0"
-					(reference "#PWR029")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -9016,7 +8989,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bb9542c7-f192-4d5b-9aea-0319cf7c8188")
-		(property "Reference" "C19"
+		(property "Reference" "C39"
 			(at 137.16 128.2762 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9080,7 +9053,7 @@
 		(instances
 			(project "Temp-Logger"
 				(path "/9c5f4d5b-9930-4cae-a7d7-03685cadac72/c440c1e4-2139-472c-9713-de5e8ecf5fb0/03c7fc19-206f-471e-8e88-67f99f0945a0"
-					(reference "C19")
+					(reference "C39")
 					(unit 1)
 				)
 			)
@@ -9098,7 +9071,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bbba1e56-8d87-4fdf-8d79-4fe98fc60dad")
-		(property "Reference" "C23"
+		(property "Reference" "C43"
 			(at 210.82 78.7462 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9162,7 +9135,7 @@
 		(instances
 			(project "Temp-Logger"
 				(path "/9c5f4d5b-9930-4cae-a7d7-03685cadac72/c440c1e4-2139-472c-9713-de5e8ecf5fb0/03c7fc19-206f-471e-8e88-67f99f0945a0"
-					(reference "C23")
+					(reference "C43")
 					(unit 1)
 				)
 			)
@@ -9180,7 +9153,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "be6f79d3-a8e4-450a-869a-990406c356c8")
-		(property "Reference" "C15"
+		(property "Reference" "C35"
 			(at 119.38 87.6362 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9244,7 +9217,7 @@
 		(instances
 			(project "Temp-Logger"
 				(path "/9c5f4d5b-9930-4cae-a7d7-03685cadac72/c440c1e4-2139-472c-9713-de5e8ecf5fb0/03c7fc19-206f-471e-8e88-67f99f0945a0"
-					(reference "C15")
+					(reference "C35")
 					(unit 1)
 				)
 			)
@@ -9262,7 +9235,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "beaaacdf-1b5c-423c-b9a7-17338bbd7c6d")
-		(property "Reference" "C14"
+		(property "Reference" "C34"
 			(at 107.95 87.6362 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9326,7 +9299,7 @@
 		(instances
 			(project "Temp-Logger"
 				(path "/9c5f4d5b-9930-4cae-a7d7-03685cadac72/c440c1e4-2139-472c-9713-de5e8ecf5fb0/03c7fc19-206f-471e-8e88-67f99f0945a0"
-					(reference "C14")
+					(reference "C34")
 					(unit 1)
 				)
 			)
@@ -9343,7 +9316,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c0515170-5a6f-414f-a954-94ac187abea2")
-		(property "Reference" "R14"
+		(property "Reference" "R27"
 			(at 320.04 87.6301 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9440,7 +9413,7 @@
 		(instances
 			(project "Temp-Logger"
 				(path "/9c5f4d5b-9930-4cae-a7d7-03685cadac72/c440c1e4-2139-472c-9713-de5e8ecf5fb0/03c7fc19-206f-471e-8e88-67f99f0945a0"
-					(reference "R14")
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -9458,7 +9431,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c2f20271-9161-4745-93ad-2f5e25d79fcc")
-		(property "Reference" "C13"
+		(property "Reference" "C33"
 			(at 96.52 87.6362 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9522,7 +9495,7 @@
 		(instances
 			(project "Temp-Logger"
 				(path "/9c5f4d5b-9930-4cae-a7d7-03685cadac72/c440c1e4-2139-472c-9713-de5e8ecf5fb0/03c7fc19-206f-471e-8e88-67f99f0945a0"
-					(reference "C13")
+					(reference "C33")
 					(unit 1)
 				)
 			)
@@ -9539,7 +9512,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c55c7b8a-f341-4088-8ffb-7e97f20ed618")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR044"
 			(at 208.28 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -9599,7 +9572,7 @@
 		(instances
 			(project "Temp-Logger"
 				(path "/9c5f4d5b-9930-4cae-a7d7-03685cadac72/c440c1e4-2139-472c-9713-de5e8ecf5fb0/03c7fc19-206f-471e-8e88-67f99f0945a0"
-					(reference "#PWR028")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -9617,7 +9590,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c7bfdae0-0029-4e9b-8262-57d4a65164ac")
-		(property "Reference" "C18"
+		(property "Reference" "C38"
 			(at 132.08 214.63 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9727,7 +9700,7 @@
 		(instances
 			(project "Temp-Logger"
 				(path "/9c5f4d5b-9930-4cae-a7d7-03685cadac72/c440c1e4-2139-472c-9713-de5e8ecf5fb0/03c7fc19-206f-471e-8e88-67f99f0945a0"
-					(reference "C18")
+					(reference "C38")
 					(unit 1)
 				)
 			)
@@ -9745,7 +9718,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c8642f32-adc3-4969-94c8-cfd8412198ea")
-		(property "Reference" "R10"
+		(property "Reference" "R23"
 			(at 293.37 156.21 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9840,7 +9813,7 @@
 		(instances
 			(project "Temp-Logger"
 				(path "/9c5f4d5b-9930-4cae-a7d7-03685cadac72/c440c1e4-2139-472c-9713-de5e8ecf5fb0/03c7fc19-206f-471e-8e88-67f99f0945a0"
-					(reference "R10")
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -9857,7 +9830,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d044ae6d-3ba7-47f2-b57c-f7873ff6ab6f")
-		(property "Reference" "R13"
+		(property "Reference" "R26"
 			(at 294.64 87.6301 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9954,7 +9927,7 @@
 		(instances
 			(project "Temp-Logger"
 				(path "/9c5f4d5b-9930-4cae-a7d7-03685cadac72/c440c1e4-2139-472c-9713-de5e8ecf5fb0/03c7fc19-206f-471e-8e88-67f99f0945a0"
-					(reference "R13")
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -9972,7 +9945,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d0e4a12c-fe4d-4a00-b9e6-4dd0360cd911")
-		(property "Reference" "C25"
+		(property "Reference" "C45"
 			(at 231.14 101.6062 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10036,7 +10009,7 @@
 		(instances
 			(project "Temp-Logger"
 				(path "/9c5f4d5b-9930-4cae-a7d7-03685cadac72/c440c1e4-2139-472c-9713-de5e8ecf5fb0/03c7fc19-206f-471e-8e88-67f99f0945a0"
-					(reference "C25")
+					(reference "C45")
 					(unit 1)
 				)
 			)
@@ -10054,7 +10027,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d37221dd-ec09-4757-bc1d-88c7e13b6340")
-		(property "Reference" "C16"
+		(property "Reference" "C36"
 			(at 123.19 128.2762 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10118,7 +10091,7 @@
 		(instances
 			(project "Temp-Logger"
 				(path "/9c5f4d5b-9930-4cae-a7d7-03685cadac72/c440c1e4-2139-472c-9713-de5e8ecf5fb0/03c7fc19-206f-471e-8e88-67f99f0945a0"
-					(reference "C16")
+					(reference "C36")
 					(unit 1)
 				)
 			)
@@ -10136,7 +10109,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d608b0ae-d1a8-4fc7-9158-003db62de5a8")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR047"
 			(at 238.76 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -10196,7 +10169,7 @@
 		(instances
 			(project "Temp-Logger"
 				(path "/9c5f4d5b-9930-4cae-a7d7-03685cadac72/c440c1e4-2139-472c-9713-de5e8ecf5fb0/03c7fc19-206f-471e-8e88-67f99f0945a0"
-					(reference "#PWR031")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -10288,7 +10261,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 186.69 229.87 0)
+		(at 184.15 229.87 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10298,8 +10271,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d84de2de-bcb7-4aca-ad3c-0b42dd12cd48")
-		(property "Reference" "#PWR027"
-			(at 186.69 236.22 0)
+		(property "Reference" "#PWR043"
+			(at 184.15 236.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10310,7 +10283,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 186.69 234.95 0)
+			(at 184.15 234.95 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10320,7 +10293,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 186.69 229.87 0)
+			(at 184.15 229.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10331,7 +10304,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 186.69 229.87 0)
+			(at 184.15 229.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10342,7 +10315,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 186.69 229.87 0)
+			(at 184.15 229.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10358,7 +10331,7 @@
 		(instances
 			(project "Temp-Logger"
 				(path "/9c5f4d5b-9930-4cae-a7d7-03685cadac72/c440c1e4-2139-472c-9713-de5e8ecf5fb0/03c7fc19-206f-471e-8e88-67f99f0945a0"
-					(reference "#PWR027")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -10376,7 +10349,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dd599603-9cd6-4553-bbc3-c724e18ece85")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR049"
 			(at 297.18 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -10436,7 +10409,7 @@
 		(instances
 			(project "Temp-Logger"
 				(path "/9c5f4d5b-9930-4cae-a7d7-03685cadac72/c440c1e4-2139-472c-9713-de5e8ecf5fb0/03c7fc19-206f-471e-8e88-67f99f0945a0"
-					(reference "#PWR033")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -10454,7 +10427,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e4a41a98-b511-4e6d-8200-eb67d6d1861a")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR038"
 			(at 125.73 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -10514,7 +10487,7 @@
 		(instances
 			(project "Temp-Logger"
 				(path "/9c5f4d5b-9930-4cae-a7d7-03685cadac72/c440c1e4-2139-472c-9713-de5e8ecf5fb0/03c7fc19-206f-471e-8e88-67f99f0945a0"
-					(reference "#PWR022")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -10617,7 +10590,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f13b7a65-b604-421d-9148-2ec252b9ffdb")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR037"
 			(at 113.03 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -10677,7 +10650,7 @@
 		(instances
 			(project "Temp-Logger"
 				(path "/9c5f4d5b-9930-4cae-a7d7-03685cadac72/c440c1e4-2139-472c-9713-de5e8ecf5fb0/03c7fc19-206f-471e-8e88-67f99f0945a0"
-					(reference "#PWR021")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -10694,7 +10667,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f7bd420e-eb78-4439-a980-048ee3312487")
-		(property "Reference" "R5"
+		(property "Reference" "R18"
 			(at 76.454 80.264 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10789,7 +10762,7 @@
 		(instances
 			(project "Temp-Logger"
 				(path "/9c5f4d5b-9930-4cae-a7d7-03685cadac72/c440c1e4-2139-472c-9713-de5e8ecf5fb0/03c7fc19-206f-471e-8e88-67f99f0945a0"
-					(reference "R5")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -10807,7 +10780,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f99c7282-87d5-4849-a794-ca3a62a67daa")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR051"
 			(at 345.44 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -10867,7 +10840,7 @@
 		(instances
 			(project "Temp-Logger"
 				(path "/9c5f4d5b-9930-4cae-a7d7-03685cadac72/c440c1e4-2139-472c-9713-de5e8ecf5fb0/03c7fc19-206f-471e-8e88-67f99f0945a0"
-					(reference "#PWR035")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -10885,7 +10858,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f9a96976-aa9e-4754-8425-1c0306e1c091")
-		(property "Reference" "R11"
+		(property "Reference" "R24"
 			(at 293.37 186.69 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10980,7 +10953,7 @@
 		(instances
 			(project "Temp-Logger"
 				(path "/9c5f4d5b-9930-4cae-a7d7-03685cadac72/c440c1e4-2139-472c-9713-de5e8ecf5fb0/03c7fc19-206f-471e-8e88-67f99f0945a0"
-					(reference "R11")
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -10997,7 +10970,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fa980e1c-042e-486c-80b4-05c97e9e93c4")
-		(property "Reference" "R4"
+		(property "Reference" "R17"
 			(at 76.454 72.644 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11092,7 +11065,7 @@
 		(instances
 			(project "Temp-Logger"
 				(path "/9c5f4d5b-9930-4cae-a7d7-03685cadac72/c440c1e4-2139-472c-9713-de5e8ecf5fb0/03c7fc19-206f-471e-8e88-67f99f0945a0"
-					(reference "R4")
+					(reference "R17")
 					(unit 1)
 				)
 			)

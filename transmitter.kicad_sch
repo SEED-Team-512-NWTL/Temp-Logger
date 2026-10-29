@@ -53,6 +53,16 @@
 	)
 	(wire
 		(pts
+			(xy 161.29 95.25) (xy 199.39 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6337c11e-92b0-4238-9ced-9d270beea266")
+	)
+	(wire
+		(pts
 			(xy 97.79 95.25) (xy 135.89 95.25)
 		)
 		(stroke
@@ -60,6 +70,16 @@
 			(type default)
 		)
 		(uuid "81dd3f91-fdce-4a20-872c-c4e00dc47532")
+	)
+	(wire
+		(pts
+			(xy 161.29 99.06) (xy 199.39 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92a0ee03-a9f0-4df1-b9d3-56ca50a9fb3d")
 	)
 	(wire
 		(pts
@@ -334,7 +354,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "piezo.kicad_sch"
+		(property "Sheetfile" "piezo_TX.kicad_sch"
 			(at 199.39 119.9646 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -345,9 +365,9 @@
 				(justify left top)
 			)
 		)
-		(pin "TX-" input
-			(at 199.39 99.06 180)
-			(uuid "02ef9d68-e16e-4c24-a24d-484f289ec19b")
+		(pin "PWM+" input
+			(at 199.39 95.25 180)
+			(uuid "6afab642-c7a5-4bde-a2c9-8681fd90d54c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -355,9 +375,9 @@
 				(justify left)
 			)
 		)
-		(pin "TX+" input
-			(at 199.39 95.25 180)
-			(uuid "19ad0918-0e1e-421a-92af-0d9e43b84b26")
+		(pin "PWM-" input
+			(at 199.39 99.06 180)
+			(uuid "2689a7be-c625-44be-94a1-6ca98219d365")
 			(effects
 				(font
 					(size 1.27 1.27)
