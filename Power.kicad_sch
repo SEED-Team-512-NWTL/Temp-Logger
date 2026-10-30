@@ -1667,6 +1667,26 @@
 		)
 		(uuid "7a8f9f68-d823-4a52-a95e-f9a0dd887fbe")
 	)
+	(text "ADD INDICATOR LED FOR 3V3"
+		(exclude_from_sim no)
+		(at 181.102 88.138 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 255 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "9e9ca6c4-e5f6-4947-8bbf-f1137f2f6861")
+	)
+	(junction
+		(at 162.56 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "118e907d-d614-4a39-a559-8a36a7b68ba9")
+	)
 	(junction
 		(at 140.97 81.28)
 		(diameter 0)
@@ -1823,6 +1843,16 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 80.01) (xy 162.56 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93fd952c-eec4-4aea-a56b-158ba2447840")
+	)
+	(wire
+		(pts
 			(xy 140.97 81.28) (xy 147.32 81.28)
 		)
 		(stroke
@@ -1932,7 +1962,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0c45d4ab-1946-4d01-a0ea-679080a4fe3c")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR070"
 			(at 152.4 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -1992,7 +2022,7 @@
 		(instances
 			(project "Temp-Logger"
 				(path "/9c5f4d5b-9930-4cae-a7d7-03685cadac72/a115d2fc-01e6-4c7c-8f9d-8729c1eac3b6"
-					(reference "#PWR061")
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
@@ -2010,7 +2040,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "185080e5-34db-4535-a268-9cf0b97481e7")
-		(property "Reference" "J17"
+		(property "Reference" "J5"
 			(at 105.41 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2069,7 +2099,7 @@
 		(instances
 			(project "Temp-Logger"
 				(path "/9c5f4d5b-9930-4cae-a7d7-03685cadac72/a115d2fc-01e6-4c7c-8f9d-8729c1eac3b6"
-					(reference "J17")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -2087,7 +2117,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "594dfa03-081b-4aae-bd9d-7805b984374c")
-		(property "Reference" "#FLG02"
+		(property "Reference" "#FLG03"
 			(at 139.7 127.635 0)
 			(hide yes)
 			(show_name no)
@@ -2147,7 +2177,7 @@
 		(instances
 			(project "Temp-Logger"
 				(path "/9c5f4d5b-9930-4cae-a7d7-03685cadac72/a115d2fc-01e6-4c7c-8f9d-8729c1eac3b6"
-					(reference "#FLG02")
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)
@@ -2165,7 +2195,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "600ba76c-c27f-4375-9dd9-633573a0fc45")
-		(property "Reference" "#PWR074"
+		(property "Reference" "#PWR069"
 			(at 148.59 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -2225,7 +2255,7 @@
 		(instances
 			(project "Temp-Logger"
 				(path "/9c5f4d5b-9930-4cae-a7d7-03685cadac72/a115d2fc-01e6-4c7c-8f9d-8729c1eac3b6"
-					(reference "#PWR074")
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -2243,7 +2273,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7ad09011-c9aa-45f7-8e02-4cd0ed5f0f21")
-		(property "Reference" "J5"
+		(property "Reference" "J7"
 			(at 106.045 48.26 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2307,7 +2337,7 @@
 		(instances
 			(project "Temp-Logger"
 				(path "/9c5f4d5b-9930-4cae-a7d7-03685cadac72/a115d2fc-01e6-4c7c-8f9d-8729c1eac3b6"
-					(reference "J5")
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -2325,7 +2355,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "815bc14a-9155-4d73-8ce3-81d87ada03c6")
-		(property "Reference" "D11"
+		(property "Reference" "D7"
 			(at 165.1 85.0899 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2389,7 +2419,7 @@
 		(instances
 			(project "Temp-Logger"
 				(path "/9c5f4d5b-9930-4cae-a7d7-03685cadac72/a115d2fc-01e6-4c7c-8f9d-8729c1eac3b6"
-					(reference "D11")
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -2493,7 +2523,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c6ea231e-ccdd-4165-9c24-cd796142b2a2")
-		(property "Reference" "R37"
+		(property "Reference" "R38"
 			(at 154.94 95.2499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2557,7 +2587,7 @@
 		(instances
 			(project "Temp-Logger"
 				(path "/9c5f4d5b-9930-4cae-a7d7-03685cadac72/a115d2fc-01e6-4c7c-8f9d-8729c1eac3b6"
-					(reference "R37")
+					(reference "R38")
 					(unit 1)
 				)
 			)
@@ -2574,7 +2604,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d6d47e4e-3c70-45b7-8da6-428e495113b1")
-		(property "Reference" "TP22"
+		(property "Reference" "TP21"
 			(at 139.192 74.676 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2636,7 +2666,7 @@
 		(instances
 			(project "Temp-Logger"
 				(path "/9c5f4d5b-9930-4cae-a7d7-03685cadac72/a115d2fc-01e6-4c7c-8f9d-8729c1eac3b6"
-					(reference "TP22")
+					(reference "TP21")
 					(unit 1)
 				)
 			)
@@ -2654,7 +2684,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e365a408-579d-48ba-9c76-339b3785ee47")
-		(property "Reference" "J18"
+		(property "Reference" "J6"
 			(at 105.41 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2713,7 +2743,85 @@
 		(instances
 			(project "Temp-Logger"
 				(path "/9c5f4d5b-9930-4cae-a7d7-03685cadac72/a115d2fc-01e6-4c7c-8f9d-8729c1eac3b6"
-					(reference "J18")
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 162.56 80.01 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f27bc85b-45ba-4bb8-895a-92706e385e36")
+		(property "Reference" "#PWR071"
+			(at 162.56 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3V3"
+			(at 162.56 74.93 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 162.56 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 162.56 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b57c3a69-9eae-4e30-93e5-b69608372090")
+		)
+		(instances
+			(project "Temp-Logger"
+				(path "/9c5f4d5b-9930-4cae-a7d7-03685cadac72/a115d2fc-01e6-4c7c-8f9d-8729c1eac3b6"
+					(reference "#PWR071")
 					(unit 1)
 				)
 			)
@@ -2730,7 +2838,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f463d385-ddcd-45fa-8631-8d60fd4833ec")
-		(property "Reference" "TP21"
+		(property "Reference" "TP22"
 			(at 139.192 94.996 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2792,7 +2900,7 @@
 		(instances
 			(project "Temp-Logger"
 				(path "/9c5f4d5b-9930-4cae-a7d7-03685cadac72/a115d2fc-01e6-4c7c-8f9d-8729c1eac3b6"
-					(reference "TP21")
+					(reference "TP22")
 					(unit 1)
 				)
 			)

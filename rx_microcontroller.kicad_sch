@@ -11,7 +11,7 @@
 		(company "UVM SEED Team 512 - NWTL")
 	)
 	(lib_symbols
-		(symbol "AERO_Capacitors:C_0603"
+		(symbol "AERO_Capacitors:C_0402"
 			(pin_numbers
 				(hide yes)
 			)
@@ -25,7 +25,18 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "C"
-				(at 2.286 0.762 0)
+				(at 2.54 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "C_0402"
+				(at 2.54 1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -35,19 +46,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "C_0603"
-				(at 2.286 -1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-				(at 0.508 -13.208 0)
+			(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+				(at 0 -10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -69,7 +69,7 @@
 				)
 			)
 			(property "Description" "Unpolarized capacitor, small symbol"
-				(at 0 -10.414 0)
+				(at 0 -12.7 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -79,47 +79,38 @@
 					)
 				)
 			)
-			(property "Capacitance" ""
-				(at 0 0 0)
+			(property "Voltage Rating" "12V"
+				(at 2.54 -1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Voltage Rating" "50V"
-				(at 2.286 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.1588)
+						(size 0.635 0.635)
+						(thickness 0.0794)
 					)
 					(justify left)
 				)
 			)
 			(property "Dielectric" "xxx"
-				(at 2.286 -5.588 0)
+				(at 2.54 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 0.635 0.635)
+						(thickness 0.0794)
 					)
 					(justify left)
 				)
 			)
 			(property "Tolerance" "x%"
-				(at 2.286 -7.62 0)
+				(at 2.54 -3.81 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
-						(size 1.27 1.27)
-						(thickness 0.1588)
+						(size 0.635 0.635)
+						(thickness 0.0794)
 					)
 					(justify left)
 				)
@@ -146,7 +137,7 @@
 					)
 				)
 			)
-			(symbol "C_0603_0_1"
+			(symbol "C_0402_0_1"
 				(polyline
 					(pts
 						(xy -1.524 0.508) (xy 1.524 0.508)
@@ -172,7 +163,7 @@
 					)
 				)
 			)
-			(symbol "C_0603_1_1"
+			(symbol "C_0402_1_1"
 				(pin passive line
 					(at 0 2.54 270)
 					(length 2.032)
@@ -194,6 +185,228 @@
 				(pin passive line
 					(at 0 -2.54 90)
 					(length 2.032)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "AERO_Resistors:R_0402"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R_0402"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+				(at 1.016 -0.254 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor, US symbol"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Power" "62.5mW"
+				(at -2.54 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 0.635 0.635)
+						(thickness 0.0794)
+					)
+				)
+			)
+			(property "Package" "0402"
+				(at 1.27 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 0.635 0.635)
+						(thickness 0.0794)
+					)
+				)
+			)
+			(property "Tolerance" "x%"
+				(at 3.81 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 0.635 0.635)
+						(thickness 0.0794)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_0402_0_1"
+				(polyline
+					(pts
+						(xy -2.286 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 0) (xy -1.143 -1.016) (xy -1.524 0) (xy -1.905 1.016) (xy -2.286 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0) (xy 0.381 -1.016) (xy 0 0) (xy -0.381 1.016) (xy -0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 0) (xy 1.905 -1.016) (xy 1.524 0) (xy 1.143 1.016) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_0402_1_1"
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 0 0)
+					(length 1.27)
 					(name ""
 						(effects
 							(font
@@ -5846,6 +6059,12 @@
 		(uuid "774e2d05-8d95-4f8a-b197-22ea6130b43e")
 	)
 	(junction
+		(at 186.69 193.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7f070c99-53d0-488d-91d1-50c938efa0f7")
+	)
+	(junction
 		(at 50.8 199.39)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5988,12 +6207,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f04ea081-4f6d-4f61-9c67-64be72d84bdb")
-	)
-	(junction
-		(at 186.69 193.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f1f01ea0-a1ad-42df-81cb-0dcf03bde925")
 	)
 	(junction
 		(at 80.01 154.94)
@@ -6879,7 +7092,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 193.04) (xy 194.31 193.04)
+			(xy 186.69 193.04) (xy 204.47 193.04)
 		)
 		(stroke
 			(width 0)
@@ -7428,7 +7641,7 @@
 		(uuid "17b733f5-9987-4cf7-a705-3d29cb78b82f")
 	)
 	(label "RF"
-		(at 194.31 193.04 180)
+		(at 204.47 193.04 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7555,7 +7768,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "03a64210-e36b-4013-8dac-4ab98b2a24d9")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR035"
 			(at 312.42 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -7615,7 +7828,7 @@
 		(instances
 			(project "Temp-Logger"
 				(path "/9c5f4d5b-9930-4cae-a7d7-03685cadac72/8722ad6e-d449-40f5-b9d3-e719432ce7be/24815342-ec6a-4578-82aa-62ef3138cf18"
-					(reference "#PWR030")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -7634,7 +7847,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "03eb3786-f10c-4ce6-887f-6beddd45d7fd")
-		(property "Reference" "U4"
+		(property "Reference" "U2"
 			(at 354.33 144.78 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -7841,15 +8054,15 @@
 		(instances
 			(project "Temp-Logger"
 				(path "/9c5f4d5b-9930-4cae-a7d7-03685cadac72/8722ad6e-d449-40f5-b9d3-e719432ce7be/24815342-ec6a-4578-82aa-62ef3138cf18"
-					(reference "U4")
+					(reference "U2")
 					(unit 3)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 52.07 147.32 0)
+		(lib_id "AERO_Capacitors:C_0402")
+		(at 50.8 207.01 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7858,9 +8071,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "064be0a7-c622-48f8-ada9-25a98239aec4")
-		(property "Reference" "C18"
-			(at 54.61 146.0562 0)
+		(uuid "055c9b46-97c2-4946-96e8-4cf2a92bc1f2")
+		(property "Reference" "C19"
+			(at 53.34 203.8412 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7870,8 +8083,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
-			(at 54.61 148.5962 0)
+		(property "Value" "2.2u"
+			(at 53.34 206.3812 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7881,8 +8094,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 52.07 147.32 0)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+			(at 50.8 217.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7893,7 +8106,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 52.07 147.32 0)
+			(at 50.8 207.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7904,7 +8117,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 52.07 147.32 0)
+			(at 50.8 219.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7914,16 +8127,52 @@
 				)
 			)
 		)
-		(pin "1"
-			(uuid "51af5d43-8aff-4dff-adb0-e8814cf462ae")
+		(property "Voltage Rating" "2.5V"
+			(at 53.34 208.2863 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.635 0.635)
+					(thickness 0.0794)
+				)
+				(justify left)
+			)
+		)
+		(property "Dielectric" "X6T"
+			(at 53.34 209.5563 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.635 0.635)
+					(thickness 0.0794)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "20%"
+			(at 53.34 210.8263 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.635 0.635)
+					(thickness 0.0794)
+				)
+				(justify left)
+			)
 		)
 		(pin "2"
-			(uuid "d355537a-6d5a-4644-9a6b-212c6464ca1f")
+			(uuid "c19f8eae-e7cf-4152-accd-58e51310ab7c")
+		)
+		(pin "1"
+			(uuid "2008436c-90f8-42c6-86d1-4a8789d07f10")
 		)
 		(instances
 			(project "Temp-Logger"
 				(path "/9c5f4d5b-9930-4cae-a7d7-03685cadac72/8722ad6e-d449-40f5-b9d3-e719432ce7be/24815342-ec6a-4578-82aa-62ef3138cf18"
-					(reference "C18")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -7941,7 +8190,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0741e236-5910-4f70-89f4-49ee45e425f0")
-		(property "Reference" "C28"
+		(property "Reference" "C30"
 			(at 176.53 195.5862 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8016,7 +8265,7 @@
 		(instances
 			(project "Temp-Logger"
 				(path "/9c5f4d5b-9930-4cae-a7d7-03685cadac72/8722ad6e-d449-40f5-b9d3-e719432ce7be/24815342-ec6a-4578-82aa-62ef3138cf18"
-					(reference "C28")
+					(reference "C30")
 					(unit 1)
 				)
 			)
@@ -8033,7 +8282,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "089196e0-d997-49b3-8437-706bd3924e23")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR025"
 			(at 52.07 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -8094,7 +8343,7 @@
 		(instances
 			(project "Temp-Logger"
 				(path "/9c5f4d5b-9930-4cae-a7d7-03685cadac72/8722ad6e-d449-40f5-b9d3-e719432ce7be/24815342-ec6a-4578-82aa-62ef3138cf18"
-					(reference "#PWR020")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -8112,7 +8361,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0c8a5d87-3c2b-4e7d-ba07-fc6410f25674")
-		(property "Reference" "TP17"
+		(property "Reference" "TP19"
 			(at 306.578 44.45 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8171,7 +8420,7 @@
 		(instances
 			(project "Temp-Logger"
 				(path "/9c5f4d5b-9930-4cae-a7d7-03685cadac72/8722ad6e-d449-40f5-b9d3-e719432ce7be/24815342-ec6a-4578-82aa-62ef3138cf18"
-					(reference "TP17")
+					(reference "TP19")
 					(unit 1)
 				)
 			)
@@ -8260,6 +8509,124 @@
 		)
 	)
 	(symbol
+		(lib_id "AERO_Capacitors:C_0402")
+		(at 52.07 147.32 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0eba5af0-7f10-43c6-8cc9-c5f5680c3ff5")
+		(property "Reference" "C20"
+			(at 54.61 144.1512 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 54.61 146.6912 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+			(at 52.07 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 52.07 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 52.07 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rating" "6.3V"
+			(at 54.61 148.5963 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.635 0.635)
+					(thickness 0.0794)
+				)
+				(justify left)
+			)
+		)
+		(property "Dielectric" "X6S"
+			(at 54.61 149.8663 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.635 0.635)
+					(thickness 0.0794)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 54.61 151.1363 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.635 0.635)
+					(thickness 0.0794)
+				)
+				(justify left)
+			)
+		)
+		(pin "2"
+			(uuid "b7ad981f-1af2-4452-b115-414b7841d53c")
+		)
+		(pin "1"
+			(uuid "d7d8d592-d803-4c5a-811c-58cc3088d68e")
+		)
+		(instances
+			(project "Temp-Logger"
+				(path "/9c5f4d5b-9930-4cae-a7d7-03685cadac72/8722ad6e-d449-40f5-b9d3-e719432ce7be/24815342-ec6a-4578-82aa-62ef3138cf18"
+					(reference "C20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 80.01 153.67 0)
 		(unit 1)
@@ -8270,7 +8637,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "12ebe412-7183-4848-bedc-1d0c7fc86b59")
-		(property "Reference" "TP11"
+		(property "Reference" "TP13"
 			(at 78.232 148.336 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8332,7 +8699,7 @@
 		(instances
 			(project "Temp-Logger"
 				(path "/9c5f4d5b-9930-4cae-a7d7-03685cadac72/8722ad6e-d449-40f5-b9d3-e719432ce7be/24815342-ec6a-4578-82aa-62ef3138cf18"
-					(reference "TP11")
+					(reference "TP13")
 					(unit 1)
 				)
 			)
@@ -8430,89 +8797,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 172.72 147.32 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "254810ca-9fb5-4815-815f-e29a2ef29fc8")
-		(property "Reference" "C27"
-			(at 170.18 146.0562 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 170.18 148.5962 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 172.72 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 172.72 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 172.72 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e572a37c-f67c-41e9-b356-7466d2f45261")
-		)
-		(pin "2"
-			(uuid "6e34b8cc-89bb-4962-b34f-032155b11968")
-		)
-		(instances
-			(project "Temp-Logger"
-				(path "/9c5f4d5b-9930-4cae-a7d7-03685cadac72/8722ad6e-d449-40f5-b9d3-e719432ce7be/24815342-ec6a-4578-82aa-62ef3138cf18"
-					(reference "C27")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 86.36 219.71 0)
 		(unit 1)
@@ -8524,7 +8808,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "25d7b087-4b61-4a22-980c-6fcf7615df1f")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR028"
 			(at 86.36 226.06 0)
 			(hide yes)
 			(show_name no)
@@ -8584,7 +8868,7 @@
 		(instances
 			(project "Temp-Logger"
 				(path "/9c5f4d5b-9930-4cae-a7d7-03685cadac72/8722ad6e-d449-40f5-b9d3-e719432ce7be/24815342-ec6a-4578-82aa-62ef3138cf18"
-					(reference "#PWR023")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -8602,7 +8886,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2715e486-943e-4aa0-b033-87d900b41c39")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR031"
 			(at 161.29 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -8662,7 +8946,7 @@
 		(instances
 			(project "Temp-Logger"
 				(path "/9c5f4d5b-9930-4cae-a7d7-03685cadac72/8722ad6e-d449-40f5-b9d3-e719432ce7be/24815342-ec6a-4578-82aa-62ef3138cf18"
-					(reference "#PWR026")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -8679,7 +8963,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "287d1864-8679-48c9-a575-f3d3af0fd7cd")
-		(property "Reference" "TP13"
+		(property "Reference" "TP15"
 			(at 153.162 135.636 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8741,7 +9025,7 @@
 		(instances
 			(project "Temp-Logger"
 				(path "/9c5f4d5b-9930-4cae-a7d7-03685cadac72/8722ad6e-d449-40f5-b9d3-e719432ce7be/24815342-ec6a-4578-82aa-62ef3138cf18"
-					(reference "TP13")
+					(reference "TP15")
 					(unit 1)
 				)
 			)
@@ -8833,6 +9117,124 @@
 		)
 	)
 	(symbol
+		(lib_id "AERO_Capacitors:C_0402")
+		(at 60.96 147.32 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2fa9549f-67f1-4d29-8cd0-dd895c3a8910")
+		(property "Reference" "C21"
+			(at 63.5 144.1512 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 63.5 146.6912 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+			(at 60.96 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 60.96 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rating" "10V"
+			(at 63.5 148.5963 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.635 0.635)
+					(thickness 0.0794)
+				)
+				(justify left)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 63.5 149.8663 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.635 0.635)
+					(thickness 0.0794)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 63.5 151.1363 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.635 0.635)
+					(thickness 0.0794)
+				)
+				(justify left)
+			)
+		)
+		(pin "2"
+			(uuid "552ae93d-1d87-4596-a97b-24a49351e097")
+		)
+		(pin "1"
+			(uuid "753aac30-a43d-4b72-b05d-5e20dd786df5")
+		)
+		(instances
+			(project "Temp-Logger"
+				(path "/9c5f4d5b-9930-4cae-a7d7-03685cadac72/8722ad6e-d449-40f5-b9d3-e719432ce7be/24815342-ec6a-4578-82aa-62ef3138cf18"
+					(reference "C21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 163.83 210.82 0)
 		(unit 1)
@@ -8843,7 +9245,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "306b4955-f7b6-4cce-a5e9-5e50559e15ac")
-		(property "Reference" "TP14"
+		(property "Reference" "TP16"
 			(at 162.052 205.486 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8905,7 +9307,7 @@
 		(instances
 			(project "Temp-Logger"
 				(path "/9c5f4d5b-9930-4cae-a7d7-03685cadac72/8722ad6e-d449-40f5-b9d3-e719432ce7be/24815342-ec6a-4578-82aa-62ef3138cf18"
-					(reference "TP14")
+					(reference "TP16")
 					(unit 1)
 				)
 			)
@@ -9003,133 +9405,6 @@
 		)
 	)
 	(symbol
-		(lib_id "AERO_Capacitors:C_0603")
-		(at 147.32 223.52 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "332a8e80-4245-4dc3-9cd8-0ee2893fd354")
-		(property "Reference" "C24"
-			(at 149.86 220.218 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "3.9p"
-			(at 149.86 222.25 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 147.828 236.728 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 147.32 223.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 147.32 233.934 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Capacitance" ""
-			(at 147.32 223.52 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage Rating" "10V"
-			(at 149.86 223.774 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.635 0.635)
-					(thickness 0.0794)
-				)
-				(justify left)
-			)
-		)
-		(property "Dielectric" "X7R"
-			(at 149.86 225.044 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.635 0.635)
-					(thickness 0.0794)
-				)
-				(justify left)
-			)
-		)
-		(property "Tolerance" "20%"
-			(at 149.86 226.314 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.635 0.635)
-					(thickness 0.0794)
-				)
-				(justify left)
-			)
-		)
-		(pin "2"
-			(uuid "b8bb37c6-677d-4ad0-86b0-975e624b8063")
-		)
-		(pin "1"
-			(uuid "319a97f3-a104-4992-84c8-e952c2ff840a")
-		)
-		(instances
-			(project "Temp-Logger"
-				(path "/9c5f4d5b-9930-4cae-a7d7-03685cadac72/8722ad6e-d449-40f5-b9d3-e719432ce7be/24815342-ec6a-4578-82aa-62ef3138cf18"
-					(reference "C24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 50.8 219.71 0)
 		(unit 1)
@@ -9141,7 +9416,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3a107153-cedd-4cb6-a6e0-354fd688c21b")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR024"
 			(at 50.8 226.06 0)
 			(hide yes)
 			(show_name no)
@@ -9201,7 +9476,7 @@
 		(instances
 			(project "Temp-Logger"
 				(path "/9c5f4d5b-9930-4cae-a7d7-03685cadac72/8722ad6e-d449-40f5-b9d3-e719432ce7be/24815342-ec6a-4578-82aa-62ef3138cf18"
-					(reference "#PWR019")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -9219,7 +9494,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3d02d5f5-2d1b-4640-9fd5-d857c81d87cc")
-		(property "Reference" "U4"
+		(property "Reference" "U2"
 			(at 95.25 135.89 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -9426,7 +9701,7 @@
 		(instances
 			(project "Temp-Logger"
 				(path "/9c5f4d5b-9930-4cae-a7d7-03685cadac72/8722ad6e-d449-40f5-b9d3-e719432ce7be/24815342-ec6a-4578-82aa-62ef3138cf18"
-					(reference "U4")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -9443,7 +9718,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3e5fcc5b-c136-4b40-a7d5-ff3b50776135")
-		(property "Reference" "R16"
+		(property "Reference" "R17"
 			(at 340.36 171.196 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9538,7 +9813,7 @@
 		(instances
 			(project "Temp-Logger"
 				(path "/9c5f4d5b-9930-4cae-a7d7-03685cadac72/8722ad6e-d449-40f5-b9d3-e719432ce7be/24815342-ec6a-4578-82aa-62ef3138cf18"
-					(reference "R16")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -9557,7 +9832,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "441abfcf-160a-477f-a4d4-dcc768d519cf")
-		(property "Reference" "U4"
+		(property "Reference" "U2"
 			(at 354.33 201.93 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -9764,7 +10039,7 @@
 		(instances
 			(project "Temp-Logger"
 				(path "/9c5f4d5b-9930-4cae-a7d7-03685cadac72/8722ad6e-d449-40f5-b9d3-e719432ce7be/24815342-ec6a-4578-82aa-62ef3138cf18"
-					(reference "U4")
+					(reference "U2")
 					(unit 4)
 				)
 			)
@@ -9781,7 +10056,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "47aa65c6-ac3f-4735-9f48-3895c8c46832")
-		(property "Reference" "TP12"
+		(property "Reference" "TP14"
 			(at 80.772 186.436 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9843,7 +10118,7 @@
 		(instances
 			(project "Temp-Logger"
 				(path "/9c5f4d5b-9930-4cae-a7d7-03685cadac72/8722ad6e-d449-40f5-b9d3-e719432ce7be/24815342-ec6a-4578-82aa-62ef3138cf18"
-					(reference "TP12")
+					(reference "TP14")
 					(unit 1)
 				)
 			)
@@ -9861,7 +10136,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4aed7a3d-8ecb-4636-b0a4-5c21b89fc8d6")
-		(property "Reference" "R14"
+		(property "Reference" "R15"
 			(at 171.45 205.74 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9956,6 +10231,242 @@
 		(instances
 			(project "Temp-Logger"
 				(path "/9c5f4d5b-9930-4cae-a7d7-03685cadac72/8722ad6e-d449-40f5-b9d3-e719432ce7be/24815342-ec6a-4578-82aa-62ef3138cf18"
+					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "AERO_Capacitors:C_0402")
+		(at 72.39 175.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4de5293e-5ba7-492d-8c55-6694ac99d114")
+		(property "Reference" "C24"
+			(at 74.93 172.0912 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2u"
+			(at 74.93 174.6312 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+			(at 72.39 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 72.39 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rating" "2.5V"
+			(at 74.93 176.5363 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.635 0.635)
+					(thickness 0.0794)
+				)
+				(justify left)
+			)
+		)
+		(property "Dielectric" "X6T"
+			(at 74.93 177.8063 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.635 0.635)
+					(thickness 0.0794)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "20%"
+			(at 74.93 179.0763 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.635 0.635)
+					(thickness 0.0794)
+				)
+				(justify left)
+			)
+		)
+		(pin "2"
+			(uuid "626a744e-41db-499c-ad22-fa2624c807de")
+		)
+		(pin "1"
+			(uuid "e799335c-2a3e-4068-856a-169e2cdbb42b")
+		)
+		(instances
+			(project "Temp-Logger"
+				(path "/9c5f4d5b-9930-4cae-a7d7-03685cadac72/8722ad6e-d449-40f5-b9d3-e719432ce7be/24815342-ec6a-4578-82aa-62ef3138cf18"
+					(reference "C24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "AERO_Resistors:R_0402")
+		(at 50.8 180.34 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "53f38c92-477a-4b82-a9d5-d9563ea29bee")
+		(property "Reference" "R14"
+			(at 53.34 177.1649 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0"
+			(at 53.34 179.7049 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 51.054 179.324 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 50.8 180.34 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power" "62.5mW"
+			(at 53.34 181.61 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.635 0.635)
+					(thickness 0.0794)
+				)
+				(justify right)
+			)
+		)
+		(property "Package" "0402"
+			(at 53.34 182.88 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.635 0.635)
+					(thickness 0.0794)
+				)
+				(justify right)
+			)
+		)
+		(property "Tolerance" "0%"
+			(at 53.34 184.15 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.635 0.635)
+					(thickness 0.0794)
+				)
+				(justify right)
+			)
+		)
+		(pin "1"
+			(uuid "89b36092-0cab-430c-9214-19902ed57d5b")
+		)
+		(pin "2"
+			(uuid "bd551afb-8e5b-47b4-8e21-7ecb57dc9b5f")
+		)
+		(instances
+			(project "Temp-Logger"
+				(path "/9c5f4d5b-9930-4cae-a7d7-03685cadac72/8722ad6e-d449-40f5-b9d3-e719432ce7be/24815342-ec6a-4578-82aa-62ef3138cf18"
 					(reference "R14")
 					(unit 1)
 				)
@@ -9975,7 +10486,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5f1c1751-0563-4071-8009-075f31fd22f7")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR033"
 			(at 182.88 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -10035,134 +10546,7 @@
 		(instances
 			(project "Temp-Logger"
 				(path "/9c5f4d5b-9930-4cae-a7d7-03685cadac72/8722ad6e-d449-40f5-b9d3-e719432ce7be/24815342-ec6a-4578-82aa-62ef3138cf18"
-					(reference "#PWR028")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "AERO_Capacitors:C_0603")
-		(at 72.39 175.26 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "6162810d-3461-4cad-ae55-4dcb3cbab26f")
-		(property "Reference" "C22"
-			(at 74.93 171.958 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2.2u"
-			(at 74.93 173.99 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 72.898 188.468 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 72.39 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 72.39 185.674 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Capacitance" ""
-			(at 72.39 175.26 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage Rating" "10V"
-			(at 74.93 175.514 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.635 0.635)
-					(thickness 0.0794)
-				)
-				(justify left)
-			)
-		)
-		(property "Dielectric" "X7R"
-			(at 74.93 176.784 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.635 0.635)
-					(thickness 0.0794)
-				)
-				(justify left)
-			)
-		)
-		(property "Tolerance" "20%"
-			(at 74.93 178.054 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.635 0.635)
-					(thickness 0.0794)
-				)
-				(justify left)
-			)
-		)
-		(pin "2"
-			(uuid "cf2edcdb-671b-4fff-b5cc-b2f580c9c84f")
-		)
-		(pin "1"
-			(uuid "58dbd890-9ae0-4e20-a4e2-7ca0c861515f")
-		)
-		(instances
-			(project "Temp-Logger"
-				(path "/9c5f4d5b-9930-4cae-a7d7-03685cadac72/8722ad6e-d449-40f5-b9d3-e719432ce7be/24815342-ec6a-4578-82aa-62ef3138cf18"
-					(reference "C22")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -10180,7 +10564,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "63a9cc68-cc55-4dd1-a4f2-6f2b77634228")
-		(property "Reference" "U4"
+		(property "Reference" "U2"
 			(at 354.33 101.6 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -10387,7 +10771,7 @@
 		(instances
 			(project "Temp-Logger"
 				(path "/9c5f4d5b-9930-4cae-a7d7-03685cadac72/8722ad6e-d449-40f5-b9d3-e719432ce7be/24815342-ec6a-4578-82aa-62ef3138cf18"
-					(reference "U4")
+					(reference "U2")
 					(unit 2)
 				)
 			)
@@ -10476,6 +10860,124 @@
 		)
 	)
 	(symbol
+		(lib_id "AERO_Capacitors:C_0402")
+		(at 162.56 147.32 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "70ebe53d-4e32-4769-9015-fa8d51c63951")
+		(property "Reference" "C28"
+			(at 165.1 144.1512 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 165.1 146.6912 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+			(at 162.56 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 162.56 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rating" "10V"
+			(at 165.1 148.5963 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.635 0.635)
+					(thickness 0.0794)
+				)
+				(justify left)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 165.1 149.8663 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.635 0.635)
+					(thickness 0.0794)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 165.1 151.1363 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.635 0.635)
+					(thickness 0.0794)
+				)
+				(justify left)
+			)
+		)
+		(pin "2"
+			(uuid "ee901f98-06ba-44ed-be70-c8665caf531b")
+		)
+		(pin "1"
+			(uuid "44b03de0-5267-44cc-879f-4e76393acd3a")
+		)
+		(instances
+			(project "Temp-Logger"
+				(path "/9c5f4d5b-9930-4cae-a7d7-03685cadac72/8722ad6e-d449-40f5-b9d3-e719432ce7be/24815342-ec6a-4578-82aa-62ef3138cf18"
+					(reference "C28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 176.53 171.45 0)
 		(unit 1)
@@ -10487,7 +10989,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "71028b6d-a5c5-4b90-9804-d90767460f43")
-		(property "Reference" "C29"
+		(property "Reference" "C31"
 			(at 179.07 170.1862 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10562,7 +11064,7 @@
 		(instances
 			(project "Temp-Logger"
 				(path "/9c5f4d5b-9930-4cae-a7d7-03685cadac72/8722ad6e-d449-40f5-b9d3-e719432ce7be/24815342-ec6a-4578-82aa-62ef3138cf18"
-					(reference "C29")
+					(reference "C31")
 					(unit 1)
 				)
 			)
@@ -10580,7 +11082,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7852090c-e582-4bd7-9545-19bef8499d4b")
-		(property "Reference" "TP15"
+		(property "Reference" "TP17"
 			(at 306.578 26.67 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10639,7 +11141,7 @@
 		(instances
 			(project "Temp-Logger"
 				(path "/9c5f4d5b-9930-4cae-a7d7-03685cadac72/8722ad6e-d449-40f5-b9d3-e719432ce7be/24815342-ec6a-4578-82aa-62ef3138cf18"
-					(reference "TP15")
+					(reference "TP17")
 					(unit 1)
 				)
 			)
@@ -10656,7 +11158,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7a64a443-da72-44aa-a93a-453e0dbd4521")
-		(property "Reference" "R15"
+		(property "Reference" "R16"
 			(at 340.36 155.956 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10751,7 +11253,7 @@
 		(instances
 			(project "Temp-Logger"
 				(path "/9c5f4d5b-9930-4cae-a7d7-03685cadac72/8722ad6e-d449-40f5-b9d3-e719432ce7be/24815342-ec6a-4578-82aa-62ef3138cf18"
-					(reference "R15")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -10769,7 +11271,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7d1b83ab-bf03-4aea-9f7c-8a7e7940d4ff")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR029"
 			(at 147.32 209.55 0)
 			(hide yes)
 			(show_name no)
@@ -10829,7 +11331,125 @@
 		(instances
 			(project "Temp-Logger"
 				(path "/9c5f4d5b-9930-4cae-a7d7-03685cadac72/8722ad6e-d449-40f5-b9d3-e719432ce7be/24815342-ec6a-4578-82aa-62ef3138cf18"
-					(reference "#PWR024")
+					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "AERO_Capacitors:C_0402")
+		(at 182.88 147.32 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "90e98fa5-f5fe-41a3-9ddf-4903c1da16df")
+		(property "Reference" "C32"
+			(at 185.42 144.1512 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 185.42 146.6912 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+			(at 182.88 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.88 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 182.88 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rating" "10V"
+			(at 185.42 148.5963 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.635 0.635)
+					(thickness 0.0794)
+				)
+				(justify left)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 185.42 149.8663 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.635 0.635)
+					(thickness 0.0794)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 185.42 151.1363 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.635 0.635)
+					(thickness 0.0794)
+				)
+				(justify left)
+			)
+		)
+		(pin "2"
+			(uuid "f3c99732-0126-4f55-adc7-efc7e12cd361")
+		)
+		(pin "1"
+			(uuid "3dc4275d-bee9-45c4-802c-8f97dedafa9f")
+		)
+		(instances
+			(project "Temp-Logger"
+				(path "/9c5f4d5b-9930-4cae-a7d7-03685cadac72/8722ad6e-d449-40f5-b9d3-e719432ce7be/24815342-ec6a-4578-82aa-62ef3138cf18"
+					(reference "C32")
 					(unit 1)
 				)
 			)
@@ -10847,7 +11467,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "979de4e8-34a3-4e8e-910d-304318cc6c0a")
-		(property "Reference" "TP16"
+		(property "Reference" "TP18"
 			(at 306.578 35.56 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10906,7 +11526,7 @@
 		(instances
 			(project "Temp-Logger"
 				(path "/9c5f4d5b-9930-4cae-a7d7-03685cadac72/8722ad6e-d449-40f5-b9d3-e719432ce7be/24815342-ec6a-4578-82aa-62ef3138cf18"
-					(reference "TP16")
+					(reference "TP18")
 					(unit 1)
 				)
 			)
@@ -10924,7 +11544,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9cdf7331-c22d-41b4-9de9-1f95dea35975")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR030"
 			(at 147.32 236.22 0)
 			(hide yes)
 			(show_name no)
@@ -10984,15 +11604,15 @@
 		(instances
 			(project "Temp-Logger"
 				(path "/9c5f4d5b-9930-4cae-a7d7-03685cadac72/8722ad6e-d449-40f5-b9d3-e719432ce7be/24815342-ec6a-4578-82aa-62ef3138cf18"
-					(reference "#PWR025")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "AERO_Capacitors:C_0603")
-		(at 71.12 207.01 0)
+		(lib_id "AERO_Capacitors:C_0402")
+		(at 172.72 147.32 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11000,9 +11620,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "a53d1ac4-a38b-436f-a0a0-6e1ecf763766")
-		(property "Reference" "C21"
-			(at 73.66 203.708 0)
+		(fields_autoplaced yes)
+		(uuid "a135c4f3-554e-4588-95d2-57c2c0e90dab")
+		(property "Reference" "C29"
+			(at 175.26 144.1512 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11012,8 +11633,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2u"
-			(at 73.66 205.74 0)
+		(property "Value" "100n"
+			(at 175.26 146.6912 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11023,8 +11644,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 71.628 220.218 0)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+			(at 172.72 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11035,7 +11656,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 71.12 207.01 0)
+			(at 172.72 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11046,7 +11667,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 71.12 217.424 0)
+			(at 172.72 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11056,18 +11677,8 @@
 				)
 			)
 		)
-		(property "Capacitance" ""
-			(at 71.12 207.01 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Voltage Rating" "10V"
-			(at 73.66 207.264 0)
+			(at 175.26 148.5963 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11079,7 +11690,7 @@
 			)
 		)
 		(property "Dielectric" "X7R"
-			(at 73.66 208.534 0)
+			(at 175.26 149.8663 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11090,8 +11701,8 @@
 				(justify left)
 			)
 		)
-		(property "Tolerance" "20%"
-			(at 73.66 209.804 0)
+		(property "Tolerance" "10%"
+			(at 175.26 151.1363 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11103,98 +11714,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "0a9e3e97-fd6e-4e98-a58a-00590304e6c1")
+			(uuid "26d337a3-dabe-4d71-8873-6b6d969d0297")
 		)
 		(pin "1"
-			(uuid "0151107e-820a-4580-9f3f-db4ca9bb011c")
+			(uuid "e604ac6c-fd75-4422-aa6e-479584f3b70a")
 		)
 		(instances
 			(project "Temp-Logger"
 				(path "/9c5f4d5b-9930-4cae-a7d7-03685cadac72/8722ad6e-d449-40f5-b9d3-e719432ce7be/24815342-ec6a-4578-82aa-62ef3138cf18"
-					(reference "C21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 162.56 147.32 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a582dbf3-18c1-4b56-88de-5307009dbcea")
-		(property "Reference" "C26"
-			(at 160.02 146.0562 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 160.02 148.5962 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 162.56 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 162.56 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 162.56 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "33ab6f53-7706-4101-8ef9-83779f8f24cc")
-		)
-		(pin "2"
-			(uuid "e906c60d-db71-453f-a43d-d61209b50421")
-		)
-		(instances
-			(project "Temp-Logger"
-				(path "/9c5f4d5b-9930-4cae-a7d7-03685cadac72/8722ad6e-d449-40f5-b9d3-e719432ce7be/24815342-ec6a-4578-82aa-62ef3138cf18"
-					(reference "C26")
+					(reference "C29")
 					(unit 1)
 				)
 			)
@@ -11212,7 +11740,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a6e82305-7564-419e-b837-9ff8241f90b0")
-		(property "Reference" "TP18"
+		(property "Reference" "TP20"
 			(at 306.578 53.34 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11271,7 +11799,7 @@
 		(instances
 			(project "Temp-Logger"
 				(path "/9c5f4d5b-9930-4cae-a7d7-03685cadac72/8722ad6e-d449-40f5-b9d3-e719432ce7be/24815342-ec6a-4578-82aa-62ef3138cf18"
-					(reference "TP18")
+					(reference "TP20")
 					(unit 1)
 				)
 			)
@@ -11289,7 +11817,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "aa9524df-ac4a-4d2f-8156-657934c3de98")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR032"
 			(at 182.88 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -11350,7 +11878,7 @@
 		(instances
 			(project "Temp-Logger"
 				(path "/9c5f4d5b-9930-4cae-a7d7-03685cadac72/8722ad6e-d449-40f5-b9d3-e719432ce7be/24815342-ec6a-4578-82aa-62ef3138cf18"
-					(reference "#PWR027")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -11459,7 +11987,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b9f158e3-cbc6-4166-ace3-217aeb4ca1cf")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR036"
 			(at 312.42 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -11519,7 +12047,7 @@
 		(instances
 			(project "Temp-Logger"
 				(path "/9c5f4d5b-9930-4cae-a7d7-03685cadac72/8722ad6e-d449-40f5-b9d3-e719432ce7be/24815342-ec6a-4578-82aa-62ef3138cf18"
-					(reference "#PWR031")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -11537,7 +12065,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bfabe5e9-24e8-48f6-98a8-9675aa2f2418")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR027"
 			(at 72.39 187.96 0)
 			(hide yes)
 			(show_name no)
@@ -11597,7 +12125,7 @@
 		(instances
 			(project "Temp-Logger"
 				(path "/9c5f4d5b-9930-4cae-a7d7-03685cadac72/8722ad6e-d449-40f5-b9d3-e719432ce7be/24815342-ec6a-4578-82aa-62ef3138cf18"
-					(reference "#PWR022")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -11615,7 +12143,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c25fa564-1115-4c9e-89b3-5af2c68b3cb3")
-		(property "Reference" "C31"
+		(property "Reference" "C33"
 			(at 189.23 195.5862 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11679,7 +12207,7 @@
 		(instances
 			(project "Temp-Logger"
 				(path "/9c5f4d5b-9930-4cae-a7d7-03685cadac72/8722ad6e-d449-40f5-b9d3-e719432ce7be/24815342-ec6a-4578-82aa-62ef3138cf18"
-					(reference "C31")
+					(reference "C33")
 					(unit 1)
 				)
 			)
@@ -11697,7 +12225,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cc4cae85-dfa6-41bf-9c84-dee3348a31b9")
-		(property "Reference" "C25"
+		(property "Reference" "C27"
 			(at 163.83 195.5862 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11772,7 +12300,7 @@
 		(instances
 			(project "Temp-Logger"
 				(path "/9c5f4d5b-9930-4cae-a7d7-03685cadac72/8722ad6e-d449-40f5-b9d3-e719432ce7be/24815342-ec6a-4578-82aa-62ef3138cf18"
-					(reference "C25")
+					(reference "C27")
 					(unit 1)
 				)
 			)
@@ -11790,7 +12318,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "cd56f0ef-54d9-48ea-805d-513454332ff8")
-		(property "Reference" "C23"
+		(property "Reference" "C25"
 			(at 143.51 170.1862 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11865,7 +12393,125 @@
 		(instances
 			(project "Temp-Logger"
 				(path "/9c5f4d5b-9930-4cae-a7d7-03685cadac72/8722ad6e-d449-40f5-b9d3-e719432ce7be/24815342-ec6a-4578-82aa-62ef3138cf18"
-					(reference "C23")
+					(reference "C25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "AERO_Capacitors:C_0402")
+		(at 147.32 223.52 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ce268df7-060e-4055-b6f8-bdfeaa63bbeb")
+		(property "Reference" "C26"
+			(at 149.86 220.3512 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3.9p"
+			(at 149.86 222.8912 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+			(at 147.32 233.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 147.32 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rating" "50V"
+			(at 149.86 224.7963 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.635 0.635)
+					(thickness 0.0794)
+				)
+				(justify left)
+			)
+		)
+		(property "Dielectric" "C0G"
+			(at 149.86 226.0663 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.635 0.635)
+					(thickness 0.0794)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "±0.25p"
+			(at 149.86 227.3363 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.635 0.635)
+					(thickness 0.0794)
+				)
+				(justify left)
+			)
+		)
+		(pin "2"
+			(uuid "22c662fa-e7dd-40ae-a749-3e77260d9055")
+		)
+		(pin "1"
+			(uuid "cc77d0c6-d3c4-4626-84bc-8ef023d490ee")
+		)
+		(instances
+			(project "Temp-Logger"
+				(path "/9c5f4d5b-9930-4cae-a7d7-03685cadac72/8722ad6e-d449-40f5-b9d3-e719432ce7be/24815342-ec6a-4578-82aa-62ef3138cf18"
+					(reference "C26")
 					(unit 1)
 				)
 			)
@@ -11883,7 +12529,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d33489b8-95d4-47a8-97bf-57b288e9a98f")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR026"
 			(at 52.07 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -11943,7 +12589,7 @@
 		(instances
 			(project "Temp-Logger"
 				(path "/9c5f4d5b-9930-4cae-a7d7-03685cadac72/8722ad6e-d449-40f5-b9d3-e719432ce7be/24815342-ec6a-4578-82aa-62ef3138cf18"
-					(reference "#PWR021")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -11960,7 +12606,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dc31fee6-dcb5-4cd6-90a1-40745327a473")
-		(property "Reference" "TP10"
+		(property "Reference" "TP12"
 			(at 59.182 161.036 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12022,343 +12668,7 @@
 		(instances
 			(project "Temp-Logger"
 				(path "/9c5f4d5b-9930-4cae-a7d7-03685cadac72/8722ad6e-d449-40f5-b9d3-e719432ce7be/24815342-ec6a-4578-82aa-62ef3138cf18"
-					(reference "TP10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 60.96 147.32 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e46c640e-88e4-4b76-afe3-fc5a03272c9a")
-		(property "Reference" "C19"
-			(at 63.5 146.0562 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 63.5 148.5962 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 60.96 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 60.96 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 60.96 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3b211030-e49a-4051-a0c0-10ae95aefd3c")
-		)
-		(pin "2"
-			(uuid "b9e7f3ef-940c-4123-9e87-b0444b74b871")
-		)
-		(instances
-			(project "Temp-Logger"
-				(path "/9c5f4d5b-9930-4cae-a7d7-03685cadac72/8722ad6e-d449-40f5-b9d3-e719432ce7be/24815342-ec6a-4578-82aa-62ef3138cf18"
-					(reference "C19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "AERO_Capacitors:C_0603")
-		(at 50.8 207.01 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "ea780c6b-731a-4c14-b228-b8d6ad4f4abe")
-		(property "Reference" "C17"
-			(at 53.34 203.708 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2.2u"
-			(at 53.34 205.74 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 51.308 220.218 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 50.8 207.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 50.8 217.424 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Capacitance" ""
-			(at 50.8 207.01 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage Rating" "10V"
-			(at 53.34 207.264 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.635 0.635)
-					(thickness 0.0794)
-				)
-				(justify left)
-			)
-		)
-		(property "Dielectric" "X7R"
-			(at 53.34 208.534 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.635 0.635)
-					(thickness 0.0794)
-				)
-				(justify left)
-			)
-		)
-		(property "Tolerance" "20%"
-			(at 53.34 209.804 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.635 0.635)
-					(thickness 0.0794)
-				)
-				(justify left)
-			)
-		)
-		(pin "2"
-			(uuid "1caee79b-455d-4ab1-b655-c689388da69d")
-		)
-		(pin "1"
-			(uuid "28da828b-222c-4247-86b1-f23a76d2e644")
-		)
-		(instances
-			(project "Temp-Logger"
-				(path "/9c5f4d5b-9930-4cae-a7d7-03685cadac72/8722ad6e-d449-40f5-b9d3-e719432ce7be/24815342-ec6a-4578-82aa-62ef3138cf18"
-					(reference "C17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "AERO_Capacitors:C_0603")
-		(at 60.96 207.01 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "ec4549bb-e7ae-40a3-ad08-438cf74e9895")
-		(property "Reference" "C20"
-			(at 63.5 203.708 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10n"
-			(at 63.5 205.74 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 61.468 220.218 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 60.96 207.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 60.96 217.424 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Capacitance" ""
-			(at 60.96 207.01 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage Rating" "10V"
-			(at 63.5 207.264 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.635 0.635)
-					(thickness 0.0794)
-				)
-				(justify left)
-			)
-		)
-		(property "Dielectric" "X7R"
-			(at 63.5 208.534 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.635 0.635)
-					(thickness 0.0794)
-				)
-				(justify left)
-			)
-		)
-		(property "Tolerance" "20%"
-			(at 63.5 209.804 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.635 0.635)
-					(thickness 0.0794)
-				)
-				(justify left)
-			)
-		)
-		(pin "2"
-			(uuid "4c07d836-42df-4221-a7a9-584b311d4d19")
-		)
-		(pin "1"
-			(uuid "10f5e137-d50b-4376-ab5f-b18a00892881")
-		)
-		(instances
-			(project "Temp-Logger"
-				(path "/9c5f4d5b-9930-4cae-a7d7-03685cadac72/8722ad6e-d449-40f5-b9d3-e719432ce7be/24815342-ec6a-4578-82aa-62ef3138cf18"
-					(reference "C20")
+					(reference "TP12")
 					(unit 1)
 				)
 			)
@@ -12376,7 +12686,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f022ffbb-cd11-4637-a675-4b8375031754")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR034"
 			(at 186.69 234.95 0)
 			(hide yes)
 			(show_name no)
@@ -12436,130 +12746,15 @@
 		(instances
 			(project "Temp-Logger"
 				(path "/9c5f4d5b-9930-4cae-a7d7-03685cadac72/8722ad6e-d449-40f5-b9d3-e719432ce7be/24815342-ec6a-4578-82aa-62ef3138cf18"
-					(reference "#PWR029")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "AERO_Resistors:R_0603")
-		(at 50.8 180.34 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f403fc78-7970-42b3-b6fb-7016b881e8f5")
-		(property "Reference" "R13"
-			(at 53.34 177.038 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "0"
-			(at 53.34 179.324 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 29.21 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 50.8 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 35.56 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power" "100mW"
-			(at 55.118 181.356 90)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 0.635 0.635)
-					(thickness 0.0794)
-				)
-			)
-		)
-		(property "Package" "0603"
-			(at 54.61 182.626 90)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 0.635 0.635)
-					(thickness 0.0794)
-				)
-			)
-		)
-		(property "Tolerance" "x%"
-			(at 54.102 183.642 90)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 0.635 0.635)
-					(thickness 0.0794)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "152a0218-7740-46e5-8bca-e2b77d707c01")
-		)
-		(pin "2"
-			(uuid "a021d580-c766-444c-99bd-ee3b454095fa")
-		)
-		(instances
-			(project "Temp-Logger"
-				(path "/9c5f4d5b-9930-4cae-a7d7-03685cadac72/8722ad6e-d449-40f5-b9d3-e719432ce7be/24815342-ec6a-4578-82aa-62ef3138cf18"
-					(reference "R13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 182.88 147.32 0)
-		(mirror y)
+		(lib_id "AERO_Capacitors:C_0402")
+		(at 71.12 207.01 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12568,9 +12763,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "fc6b10b0-54e9-458b-9c67-77acc5c2dfd3")
-		(property "Reference" "C30"
-			(at 180.34 146.0562 0)
+		(uuid "f70e75f7-414f-43ed-9345-ec8cdd93b1a8")
+		(property "Reference" "C23"
+			(at 73.66 203.8412 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12580,8 +12775,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
-			(at 180.34 148.5962 0)
+		(property "Value" "2.2n"
+			(at 73.66 206.3812 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12591,8 +12786,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 182.88 147.32 0)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+			(at 71.12 217.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12603,7 +12798,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 182.88 147.32 0)
+			(at 71.12 207.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12614,7 +12809,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 182.88 147.32 0)
+			(at 71.12 219.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12624,16 +12819,170 @@
 				)
 			)
 		)
-		(pin "1"
-			(uuid "0fb21346-0bcd-4e85-9008-7c46cc9c31ff")
+		(property "Voltage Rating" "10V"
+			(at 73.66 208.2863 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.635 0.635)
+					(thickness 0.0794)
+				)
+				(justify left)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 73.66 209.5563 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.635 0.635)
+					(thickness 0.0794)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 73.66 210.8263 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.635 0.635)
+					(thickness 0.0794)
+				)
+				(justify left)
+			)
 		)
 		(pin "2"
-			(uuid "0ebea4dc-3782-490a-a926-9e379c66194d")
+			(uuid "f60c161b-bcf7-44a5-b017-238f70f1d379")
+		)
+		(pin "1"
+			(uuid "5076e5cc-6fd6-4004-bcdb-fb919358bac6")
 		)
 		(instances
 			(project "Temp-Logger"
 				(path "/9c5f4d5b-9930-4cae-a7d7-03685cadac72/8722ad6e-d449-40f5-b9d3-e719432ce7be/24815342-ec6a-4578-82aa-62ef3138cf18"
-					(reference "C30")
+					(reference "C23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "AERO_Capacitors:C_0402")
+		(at 60.96 207.01 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ff105297-dfe5-4377-8bf5-469bcb93372d")
+		(property "Reference" "C22"
+			(at 63.5 203.8412 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10n"
+			(at 63.5 206.3812 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+			(at 60.96 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 207.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 60.96 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rating" "6.3%"
+			(at 63.5 208.2863 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.635 0.635)
+					(thickness 0.0794)
+				)
+				(justify left)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 63.5 209.5563 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.635 0.635)
+					(thickness 0.0794)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "20%"
+			(at 63.5 210.8263 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.635 0.635)
+					(thickness 0.0794)
+				)
+				(justify left)
+			)
+		)
+		(pin "2"
+			(uuid "0ef6138e-56cc-4ead-8817-3a855bcc0f73")
+		)
+		(pin "1"
+			(uuid "db4c6936-aaea-4226-869d-1e278b70dfd3")
+		)
+		(instances
+			(project "Temp-Logger"
+				(path "/9c5f4d5b-9930-4cae-a7d7-03685cadac72/8722ad6e-d449-40f5-b9d3-e719432ce7be/24815342-ec6a-4578-82aa-62ef3138cf18"
+					(reference "C22")
 					(unit 1)
 				)
 			)

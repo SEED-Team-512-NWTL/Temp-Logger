@@ -1066,7 +1066,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a4b8d172-226c-4d5c-af26-9259e89ba13d")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR037"
 			(at 152.4 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -1126,7 +1126,7 @@
 		(instances
 			(project "Temp-Logger"
 				(path "/9c5f4d5b-9930-4cae-a7d7-03685cadac72/c440c1e4-2139-472c-9713-de5e8ecf5fb0"
-					(reference "#PWR032")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -1144,7 +1144,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b92d92df-8202-4326-b00a-06026e2f07aa")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR038"
 			(at 152.4 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -1204,7 +1204,7 @@
 		(instances
 			(project "Temp-Logger"
 				(path "/9c5f4d5b-9930-4cae-a7d7-03685cadac72/c440c1e4-2139-472c-9713-de5e8ecf5fb0"
-					(reference "#PWR033")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
