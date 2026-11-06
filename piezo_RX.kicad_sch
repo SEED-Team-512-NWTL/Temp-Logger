@@ -25,7 +25,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "C"
-				(at 2.286 0.762 0)
+				(at 2.54 2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -36,7 +36,7 @@
 				)
 			)
 			(property "Value" "C_0603"
-				(at 2.286 -1.27 0)
+				(at 2.54 0.508 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -90,36 +90,37 @@
 				)
 			)
 			(property "Voltage Rating" "50V"
-				(at 2.286 -3.81 0)
+				(at 2.54 -1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
-						(size 1.27 1.27)
-						(thickness 0.1588)
+						(size 0.635 0.635)
+						(thickness 0.0794)
 					)
 					(justify left)
 				)
 			)
 			(property "Dielectric" "xxx"
-				(at 2.286 -5.588 0)
+				(at 2.54 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 0.635 0.635)
+						(thickness 0.0794)
 					)
 					(justify left)
 				)
 			)
 			(property "Tolerance" "x%"
-				(at 2.286 -7.62 0)
+				(at 2.54 -3.81 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
-						(size 1.27 1.27)
-						(thickness 0.1588)
+						(size 0.635 0.635)
+						(thickness 0.0794)
 					)
 					(justify left)
 				)
@@ -1154,7 +1155,7 @@
 				)
 			)
 		)
-		(property "Voltage Rating" "10V"
+		(property "Voltage Rating" "50V"
 			(at 156.21 115.5762 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1166,7 +1167,7 @@
 				(justify right)
 			)
 		)
-		(property "Dielectric" "X7R"
+		(property "Dielectric" "xxx"
 			(at 156.21 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1178,7 +1179,7 @@
 				(justify right)
 			)
 		)
-		(property "Tolerance" "10%"
+		(property "Tolerance" "x%"
 			(at 156.21 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1667,7 +1668,7 @@
 				)
 			)
 		)
-		(property "Voltage Rating" "10V"
+		(property "Voltage Rating" "50V"
 			(at 156.21 88.9062 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1679,7 +1680,7 @@
 				(justify right)
 			)
 		)
-		(property "Dielectric" "X7R"
+		(property "Dielectric" "xxx"
 			(at 156.21 90.17 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1691,7 +1692,7 @@
 				(justify right)
 			)
 		)
-		(property "Tolerance" "10%"
+		(property "Tolerance" "x%"
 			(at 156.21 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)

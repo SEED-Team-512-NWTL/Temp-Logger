@@ -25,7 +25,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "C"
-				(at 2.286 0.762 0)
+				(at 2.54 2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -36,7 +36,7 @@
 				)
 			)
 			(property "Value" "C_0603"
-				(at 2.286 -1.27 0)
+				(at 2.54 0.508 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -90,36 +90,37 @@
 				)
 			)
 			(property "Voltage Rating" "50V"
-				(at 2.286 -3.81 0)
+				(at 2.54 -1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
-						(size 1.27 1.27)
-						(thickness 0.1588)
+						(size 0.635 0.635)
+						(thickness 0.0794)
 					)
 					(justify left)
 				)
 			)
 			(property "Dielectric" "xxx"
-				(at 2.286 -5.588 0)
+				(at 2.54 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 0.635 0.635)
+						(thickness 0.0794)
 					)
 					(justify left)
 				)
 			)
 			(property "Tolerance" "x%"
-				(at 2.286 -7.62 0)
+				(at 2.54 -3.81 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
-						(size 1.27 1.27)
-						(thickness 0.1588)
+						(size 0.635 0.635)
+						(thickness 0.0794)
 					)
 					(justify left)
 				)
@@ -3828,7 +3829,7 @@
 				)
 			)
 		)
-		(property "Voltage Rating" "16V"
+		(property "Voltage Rating" "50V"
 			(at 157.48 100.584 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3840,7 +3841,7 @@
 				(justify left)
 			)
 		)
-		(property "Dielectric" "X7R"
+		(property "Dielectric" "xxx"
 			(at 157.48 101.854 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3852,7 +3853,7 @@
 				(justify left)
 			)
 		)
-		(property "Tolerance" "20%"
+		(property "Tolerance" "x%"
 			(at 157.48 103.124 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3967,7 +3968,7 @@
 				)
 			)
 		)
-		(property "Tolerance" "5%"
+		(property "Tolerance" "x%"
 			(at 254 112.268 90)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -4287,7 +4288,7 @@
 				)
 			)
 		)
-		(property "Description" "DFE252012F-1R0M=P2"
+		(property "Description" "Inductor"
 			(at 203.2 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -4401,7 +4402,7 @@
 				)
 			)
 		)
-		(property "Tolerance" "5%"
+		(property "Tolerance" "x%"
 			(at 212.09 112.268 90)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -4701,7 +4702,7 @@
 				)
 			)
 		)
-		(property "Voltage Rating" "16V"
+		(property "Voltage Rating" "50V"
 			(at 167.64 100.584 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4713,7 +4714,7 @@
 				(justify left)
 			)
 		)
-		(property "Dielectric" "X7R"
+		(property "Dielectric" "xxx"
 			(at 167.64 101.854 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4725,7 +4726,7 @@
 				(justify left)
 			)
 		)
-		(property "Tolerance" "20%"
+		(property "Tolerance" "x%"
 			(at 167.64 103.124 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5091,7 +5092,7 @@
 				)
 			)
 		)
-		(property "Tolerance" "1%"
+		(property "Tolerance" "x%"
 			(at 75.946 90.17 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -5282,7 +5283,7 @@
 				)
 			)
 		)
-		(property "Tolerance" "5%"
+		(property "Tolerance" "x%"
 			(at 128.27 112.268 90)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -5384,7 +5385,7 @@
 				)
 			)
 		)
-		(property "Voltage Rating" "16V"
+		(property "Voltage Rating" "50V"
 			(at 80.01 75.184 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5396,7 +5397,7 @@
 				(justify left)
 			)
 		)
-		(property "Dielectric" "X7R"
+		(property "Dielectric" "xxx"
 			(at 80.01 76.454 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5408,7 +5409,7 @@
 				(justify left)
 			)
 		)
-		(property "Tolerance" "20%"
+		(property "Tolerance" "x%"
 			(at 80.01 77.724 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5691,7 +5692,7 @@
 				)
 			)
 		)
-		(property "Tolerance" "1%"
+		(property "Tolerance" "x%"
 			(at 76.2 99.822 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -5882,7 +5883,7 @@
 				)
 			)
 		)
-		(property "Tolerance" "5%"
+		(property "Tolerance" "x%"
 			(at 212.09 102.108 90)
 			(show_name no)
 			(do_not_autoplace yes)
