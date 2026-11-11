@@ -10424,7 +10424,7 @@
 				)
 			)
 		)
-		(property "Voltage Rating" "12V"
+		(property "Voltage Rating" "6.3V"
 			(at 53.34 208.2863 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10436,7 +10436,7 @@
 				(justify left)
 			)
 		)
-		(property "Dielectric" "xxx"
+		(property "Dielectric" "X5R"
 			(at 53.34 209.5563 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10448,7 +10448,7 @@
 				(justify left)
 			)
 		)
-		(property "Tolerance" "x%"
+		(property "Tolerance" "20%"
 			(at 53.34 210.8263 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10458,6 +10458,17 @@
 					(thickness 0.0794)
 				)
 				(justify left)
+			)
+		)
+		(property "LCSC" "C76933"
+			(at 50.8 207.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -10706,7 +10717,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -10876,7 +10887,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -11197,7 +11208,7 @@
 				)
 			)
 		)
-		(property "Voltage Rating" "12V"
+		(property "Voltage Rating" "6.3V"
 			(at 73.66 208.2863 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11209,7 +11220,7 @@
 				(justify left)
 			)
 		)
-		(property "Dielectric" "xxx"
+		(property "Dielectric" "X7R"
 			(at 73.66 209.5563 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11221,7 +11232,7 @@
 				(justify left)
 			)
 		)
-		(property "Tolerance" "x%"
+		(property "Tolerance" "10%"
 			(at 73.66 210.8263 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11231,6 +11242,17 @@
 					(thickness 0.0794)
 				)
 				(justify left)
+			)
+		)
+		(property "LCSC" "C526947"
+			(at 71.12 207.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -11539,7 +11561,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -11618,7 +11640,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -11802,7 +11824,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "34f467e3-3129-4a2a-95a3-0341508d6206")
 		(property "Reference" "J11"
@@ -12404,7 +12426,7 @@
 				)
 			)
 		)
-		(property "Tolerance" "x%"
+		(property "Tolerance" "5%"
 			(at 344.17 173.228 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -12579,7 +12601,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "42d280b0-6dc5-4621-9dc4-55f7be41fe12")
 		(property "Reference" "J12"
 			(at 271.018 173.736 0)
@@ -12887,7 +12909,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "452006be-3a5b-4fa9-8e06-b827c24e2966")
 		(property "Reference" "J13"
 			(at 301.244 200.406 0)
@@ -12984,7 +13006,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -13935,6 +13957,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C97603"
+			(at 335.28 149.86 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "4addfbd9-07c9-48ab-9ee6-4d11e949d09f")
 		)
@@ -14132,7 +14165,7 @@
 				)
 			)
 		)
-		(property "Tolerance" "x%"
+		(property "Tolerance" "5%"
 			(at 344.17 159.512 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -14404,7 +14437,7 @@
 				(justify left)
 			)
 		)
-		(property "Dielectric" "xxx"
+		(property "Dielectric" "X7R"
 			(at 63.5 209.5563 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14416,7 +14449,7 @@
 				(justify left)
 			)
 		)
-		(property "Tolerance" "x%"
+		(property "Tolerance" "10%"
 			(at 63.5 210.8263 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14426,6 +14459,17 @@
 					(thickness 0.0794)
 				)
 				(justify left)
+			)
+		)
+		(property "LCSC" "C309453"
+			(at 60.96 207.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -14632,7 +14676,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -14787,7 +14831,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -15967,7 +16011,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -16204,7 +16248,7 @@
 				)
 			)
 		)
-		(property "Tolerance" "x%"
+		(property "Tolerance" "5%"
 			(at 182.118 214.376 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16212,6 +16256,17 @@
 				(font
 					(size 0.635 0.635)
 					(thickness 0.0794)
+				)
+			)
+		)
+		(property "LCSC" "C131396"
+			(at 179.07 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)

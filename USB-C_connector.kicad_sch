@@ -3829,8 +3829,8 @@
 				)
 			)
 		)
-		(property "Voltage Rating" "50V"
-			(at 157.48 100.584 0)
+		(property "Voltage Rating" "10V"
+			(at 155.448 100.584 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3838,11 +3838,11 @@
 					(size 0.635 0.635)
 					(thickness 0.0794)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Dielectric" "xxx"
-			(at 157.48 101.854 0)
+		(property "Dielectric" "X5R"
+			(at 155.448 101.854 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3850,11 +3850,11 @@
 					(size 0.635 0.635)
 					(thickness 0.0794)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Tolerance" "x%"
-			(at 157.48 103.124 0)
+		(property "Tolerance" "10%"
+			(at 155.448 103.124 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3862,7 +3862,18 @@
 					(size 0.635 0.635)
 					(thickness 0.0794)
 				)
-				(justify left)
+				(justify right)
+			)
+		)
+		(property "LCSC" "C1705"
+			(at 160.02 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -3968,7 +3979,7 @@
 				)
 			)
 		)
-		(property "Tolerance" "x%"
+		(property "Tolerance" "1%"
 			(at 254 112.268 90)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -3976,6 +3987,17 @@
 				(font
 					(size 0.635 0.635)
 					(thickness 0.0794)
+				)
+			)
+		)
+		(property "LCSC" "C114065"
+			(at 251.46 110.49 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -4142,6 +4164,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C2117"
+			(at 261.62 100.33 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "4635fc44-452a-422d-8f94-7caed7175145")
 		)
@@ -4299,6 +4332,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C435392"
+			(at 203.2 95.25 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "0f2a9d77-b38b-476c-a75a-1f92ff8dc39f")
 		)
@@ -4402,7 +4446,7 @@
 				)
 			)
 		)
-		(property "Tolerance" "x%"
+		(property "Tolerance" "1%"
 			(at 212.09 112.268 90)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -4410,6 +4454,17 @@
 				(font
 					(size 0.635 0.635)
 					(thickness 0.0794)
+				)
+			)
+		)
+		(property "LCSC" "C114065"
+			(at 209.55 110.49 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -4571,6 +4626,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C3020560"
+			(at 41.91 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "B4"
 			(uuid "20bc302f-4557-4544-b272-7c35bf9c43ba")
 		)
@@ -4702,8 +4768,8 @@
 				)
 			)
 		)
-		(property "Voltage Rating" "50V"
-			(at 167.64 100.584 0)
+		(property "Voltage Rating" "25V"
+			(at 165.608 100.584 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4711,11 +4777,11 @@
 					(size 0.635 0.635)
 					(thickness 0.0794)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Dielectric" "xxx"
-			(at 167.64 101.854 0)
+		(property "Dielectric" "X7R"
+			(at 165.608 101.854 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4723,11 +4789,11 @@
 					(size 0.635 0.635)
 					(thickness 0.0794)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Tolerance" "x%"
-			(at 167.64 103.124 0)
+		(property "Tolerance" "10%"
+			(at 165.608 103.124 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4735,7 +4801,18 @@
 					(size 0.635 0.635)
 					(thickness 0.0794)
 				)
-				(justify left)
+				(justify right)
+			)
+		)
+		(property "LCSC" "C1590"
+			(at 170.18 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -4765,7 +4842,7 @@
 		(dnp no)
 		(uuid "51a5b264-a660-48c2-8951-fe593b6a9254")
 		(property "Reference" "C53"
-			(at 237.49 104.1462 0)
+			(at 237.49 102.362 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4776,7 +4853,7 @@
 			)
 		)
 		(property "Value" "4.7u"
-			(at 237.49 106.6862 0)
+			(at 237.49 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4809,6 +4886,53 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 234.95 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rating" "10V"
+			(at 237.49 105.664 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.635 0.635)
+					(thickness 0.0794)
+				)
+				(justify left)
+			)
+		)
+		(property "Dielectric" "X5R"
+			(at 237.49 106.68 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.635 0.635)
+					(thickness 0.0794)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 237.49 107.696 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.635 0.635)
+					(thickness 0.0794)
+				)
+				(justify left)
+			)
+		)
+		(property "LCSC" "C1705"
 			(at 234.95 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -4979,6 +5103,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C5181455"
+			(at 186.69 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c0c066bb-1156-4225-87df-0d6d1917bc31")
 		)
@@ -5092,7 +5227,7 @@
 				)
 			)
 		)
-		(property "Tolerance" "x%"
+		(property "Tolerance" "5%"
 			(at 75.946 90.17 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -5100,6 +5235,17 @@
 				(font
 					(size 0.635 0.635)
 					(thickness 0.0794)
+				)
+			)
+		)
+		(property "LCSC" "C14677"
+			(at 72.39 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -5294,7 +5440,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C82865"
+		(property "LCSC" "C105588"
 			(at 125.73 110.49 90)
 			(hide yes)
 			(show_name no)
@@ -5396,7 +5542,7 @@
 				)
 			)
 		)
-		(property "Voltage Rating" "50V"
+		(property "Voltage Rating" "10V"
 			(at 80.01 75.184 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5408,7 +5554,7 @@
 				(justify left)
 			)
 		)
-		(property "Dielectric" "xxx"
+		(property "Dielectric" "X5R"
 			(at 80.01 76.454 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5420,7 +5566,7 @@
 				(justify left)
 			)
 		)
-		(property "Tolerance" "x%"
+		(property "Tolerance" "10%"
 			(at 80.01 77.724 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5430,6 +5576,17 @@
 					(thickness 0.0794)
 				)
 				(justify left)
+			)
+		)
+		(property "LCSC" "C1705"
+			(at 77.47 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -5714,7 +5871,7 @@
 				)
 			)
 		)
-		(property "Tolerance" "x%"
+		(property "Tolerance" "5%"
 			(at 76.2 99.822 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -5722,6 +5879,17 @@
 				(font
 					(size 0.635 0.635)
 					(thickness 0.0794)
+				)
+			)
+		)
+		(property "LCSC" "C14677"
+			(at 72.39 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -5905,7 +6073,7 @@
 				)
 			)
 		)
-		(property "Tolerance" "x%"
+		(property "Tolerance" "1%"
 			(at 212.09 102.108 90)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -5913,6 +6081,17 @@
 				(font
 					(size 0.635 0.635)
 					(thickness 0.0794)
+				)
+			)
+		)
+		(property "LCSC" "C14675"
+			(at 209.55 100.33 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -6224,6 +6403,17 @@
 		)
 		(property "Description" "-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23"
 			(at 251.46 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C15127"
+			(at 251.46 97.79 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

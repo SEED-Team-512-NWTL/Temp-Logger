@@ -2366,7 +2366,7 @@
 				)
 			)
 		)
-		(property "Tolerance" "x%"
+		(property "Tolerance" "1%"
 			(at 154.94 98.298 90)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -2374,6 +2374,17 @@
 				(font
 					(size 0.635 0.635)
 					(thickness 0.0794)
+				)
+			)
+		)
+		(property "LCSC" "C114065"
+			(at 152.4 96.52 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -2401,7 +2412,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "185080e5-34db-4535-a268-9cf0b97481e7")
 		(property "Reference" "J5"
@@ -2724,7 +2735,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C82865"
+		(property "LCSC" "C105588"
 			(at 205.74 96.52 90)
 			(hide yes)
 			(show_name no)
@@ -2999,6 +3010,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C2938824"
+			(at 113.03 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "13f948d4-6f85-42e6-8242-98bcb9c60375")
 		)
@@ -3158,6 +3180,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C2117"
+			(at 162.56 86.36 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "558d3c00-fa67-4aa7-9188-fab6ea9ecbe8")
 		)
@@ -3241,6 +3274,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C15127"
+			(at 152.4 83.82 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8527a050-2e2b-45b7-a613-3929642020b9")
 		)
@@ -3265,7 +3309,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -3347,7 +3391,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "e365a408-579d-48ba-9c76-339b3785ee47")
 		(property "Reference" "J6"
@@ -3499,7 +3543,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)

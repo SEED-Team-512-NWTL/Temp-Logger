@@ -134,7 +134,7 @@
       "labels": true,
       "lockedItems": false,
       "otherItems": true,
-      "pins": true,
+      "pins": false,
       "ruleAreas": true,
       "symbols": true,
       "text": true,
