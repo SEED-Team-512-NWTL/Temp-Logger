@@ -4399,7 +4399,7 @@
 				(justify right)
 			)
 		)
-		(property "Dielectric" "xxx"
+		(property "Dielectric" "X7R"
 			(at 130.81 92.7163 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4411,7 +4411,7 @@
 				(justify right)
 			)
 		)
-		(property "Tolerance" "x%"
+		(property "Tolerance" "10%"
 			(at 130.81 93.9863 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4421,6 +4421,17 @@
 					(thickness 0.0794)
 				)
 				(justify right)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 128.27 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -4460,8 +4471,8 @@
 				)
 			)
 		)
-		(property "Value" "TMP117xxDRV"
-			(at 157.988 97.282 0)
+		(property "Value" "TMP117AIDRVR"
+			(at 158.496 97.282 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4495,6 +4506,17 @@
 			)
 		)
 		(property "Description" "Digital Temperature Sensor with I2C/SMBus Interface, 16 bits, ±0.3°C, one-shot conversion, alert, nist traceable, EEPROM, WSON"
+			(at 148.59 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C699536"
 			(at 148.59 106.68 0)
 			(hide yes)
 			(show_name no)

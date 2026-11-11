@@ -440,7 +440,7 @@
 				)
 			)
 		)
-		(property "Tolerance" "x%"
+		(property "Tolerance" "5%"
 			(at 191.77 83.058 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -448,6 +448,17 @@
 				(font
 					(size 0.635 0.635)
 					(thickness 0.0794)
+				)
+			)
+		)
+		(property "LCSC" "C177335"
+			(at 187.96 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -552,7 +563,7 @@
 				)
 			)
 		)
-		(property "Tolerance" "x%"
+		(property "Tolerance" "5%"
 			(at 191.77 95.758 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -560,6 +571,17 @@
 				(font
 					(size 0.635 0.635)
 					(thickness 0.0794)
+				)
+			)
+		)
+		(property "LCSC" "C177335"
+			(at 187.96 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -664,7 +686,7 @@
 				)
 			)
 		)
-		(property "Tolerance" "x%"
+		(property "Tolerance" "5%"
 			(at 120.65 83.058 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -672,6 +694,17 @@
 				(font
 					(size 0.635 0.635)
 					(thickness 0.0794)
+				)
+			)
+		)
+		(property "LCSC" "C177335"
+			(at 116.84 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -776,7 +809,7 @@
 				)
 			)
 		)
-		(property "Tolerance" "x%"
+		(property "Tolerance" "5%"
 			(at 120.65 95.758 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -784,6 +817,17 @@
 				(font
 					(size 0.635 0.635)
 					(thickness 0.0794)
+				)
+			)
+		)
+		(property "LCSC" "C177335"
+			(at 116.84 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)

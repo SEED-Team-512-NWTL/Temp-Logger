@@ -4547,6 +4547,7 @@
 		(symbol "Team_512_Connectors:MM8130-2600RA2"
 			(pin_names
 				(offset 0.254)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4604,16 +4605,6 @@
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4695,7 +4686,7 @@
 				(pin input line
 					(at 0 0 0)
 					(length 5.08)
-					(name ""
+					(name "IN"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4713,7 +4704,7 @@
 				(pin output line
 					(at 12.7 0 180)
 					(length 5.08)
-					(name ""
+					(name "OUT"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4731,7 +4722,7 @@
 				(pin power_out line
 					(at 6.35 -6.35 90)
 					(length 5.08)
-					(name ""
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4747,8 +4738,8 @@
 					)
 				)
 				(pin power_out line
-					(at 6.35 -13.97 90)
-					(length 7.62)
+					(at 6.35 -6.35 90)
+					(length 5.08)
 					(hide yes)
 					(name "GND"
 						(effects
@@ -4766,8 +4757,8 @@
 					)
 				)
 				(pin power_out line
-					(at 6.35 -13.97 90)
-					(length 7.62)
+					(at 6.35 -6.35 90)
+					(length 5.08)
 					(hide yes)
 					(name "GND"
 						(effects
@@ -4785,8 +4776,8 @@
 					)
 				)
 				(pin power_out line
-					(at 6.35 -13.97 90)
-					(length 7.62)
+					(at 6.35 -6.35 90)
+					(length 5.08)
 					(hide yes)
 					(name "GND"
 						(effects
@@ -6878,7 +6869,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Team_512_Oscillators:ECS-320-CDX-2374"
+		(symbol "Team_512_Oscillators:ECS-320-8-37B-CKY-TR"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -6894,7 +6885,7 @@
 					)
 				)
 			)
-			(property "Value" "ECS-320-CDX-2374"
+			(property "Value" "ECS-320-8-37B-CKY-TR"
 				(at 0 5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -6904,7 +6895,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Team_512_Oscillators:ECS-320-CDX-2374"
+			(property "Footprint" "Team_512_Oscillators:ECS-320-8-37B-CKY-TR"
 				(at 0 -10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -6915,7 +6906,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://ecsxtal.com/store/pdf/ECS-320-CDX-2374.pdf"
+			(property "Datasheet" "https://ecsxtal.com/store/pdf/ECX-1637B.pdf"
 				(at 0 -12.7 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -6948,7 +6939,7 @@
 					)
 				)
 			)
-			(symbol "ECS-320-CDX-2374_0_1"
+			(symbol "ECS-320-8-37B-CKY-TR_0_1"
 				(polyline
 					(pts
 						(xy -6.35 0) (xy -2.54 0)
@@ -7033,7 +7024,7 @@
 					)
 				)
 			)
-			(symbol "ECS-320-CDX-2374_1_1"
+			(symbol "ECS-320-8-37B-CKY-TR_1_1"
 				(rectangle
 					(start -6.35 3.81)
 					(end 6.35 -7.62)
@@ -7111,6 +7102,171 @@
 						)
 					)
 					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Team_512_Oscillators:SC-20S,32.768kHz,20PPM,9pF"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Y"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SC-20S,32.768kHz,20PPM,9pF"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Team_512_Oscillators:SC-20S,32.768kHz,20PPM,9pF"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.sii.co.jp/hubfs/SC-20S_Leaflet_e20151217.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Two pin crystal, small symbol"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "quartz ceramic resonator oscillator"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Crystal*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SC-20S,32.768kHz,20PPM,9pF_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -0.762) (xy -1.27 0.762)
+					)
+					(stroke
+						(width 0.381)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -0.762 -1.524)
+					(end 0.762 1.524)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -0.762) (xy 1.27 0.762)
+					)
+					(stroke
+						(width 0.381)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SC-20S,32.768kHz,20PPM,9pF_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7525,41 +7681,6 @@
 		)
 		(uuid "31a6e1b9-c147-413d-97ee-ee679b255fd3")
 	)
-	(text "ADD OSCILLATOR"
-		(exclude_from_sim no)
-		(at 317.754 93.98 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left)
-		)
-		(uuid "5691ddd7-4c83-4982-9b30-6bba55136992")
-	)
-	(text "Programming points (should match pogo pin programmer footprint)"
-		(exclude_from_sim no)
-		(at 325.628 64.77 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "59dc1fd7-44d1-4073-bc05-d5ab6916413b")
-	)
-	(text "Change to header?"
-		(exclude_from_sim no)
-		(at 326.644 43.688 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b314321b-081d-4607-9c64-39052e686187")
-	)
 	(text "~{RESET} pulled up internally"
 		(exclude_from_sim no)
 		(at 122.174 225.806 0)
@@ -7922,6 +8043,16 @@
 	)
 	(wire
 		(pts
+			(xy 341.63 129.54) (xy 341.63 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03dfda09-2db5-4b7b-9183-104a824f5b43")
+	)
+	(wire
+		(pts
 			(xy 58.42 215.9) (xy 58.42 210.82)
 		)
 		(stroke
@@ -8009,6 +8140,16 @@
 			(type default)
 		)
 		(uuid "14713e72-6c93-4629-a134-4910440fe637")
+	)
+	(wire
+		(pts
+			(xy 332.74 124.46) (xy 332.74 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15a6fca0-1762-4dff-98f8-c006d819abd2")
 	)
 	(wire
 		(pts
@@ -8702,16 +8843,6 @@
 	)
 	(wire
 		(pts
-			(xy 309.88 27.94) (xy 309.88 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "84164fc7-6817-4bb2-84a4-d60f148ffe1e")
-	)
-	(wire
-		(pts
 			(xy 267.97 210.82) (xy 267.97 212.09)
 		)
 		(stroke
@@ -8729,6 +8860,16 @@
 			(type default)
 		)
 		(uuid "84ef706a-2a49-4e11-b1c7-240534202441")
+	)
+	(wire
+		(pts
+			(xy 341.63 124.46) (xy 332.74 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b7e3d38-5835-4b84-a922-e059c58a6011")
 	)
 	(wire
 		(pts
@@ -8799,6 +8940,16 @@
 			(type default)
 		)
 		(uuid "90e3bfda-ed95-4c32-911d-4071f332dd5f")
+	)
+	(wire
+		(pts
+			(xy 332.74 132.08) (xy 344.17 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9130973b-be6b-4599-93b7-d93296d7f8be")
 	)
 	(wire
 		(pts
@@ -8879,16 +9030,6 @@
 			(type default)
 		)
 		(uuid "a54f3361-6dd0-4ce2-a7fd-c04ef90f2fbb")
-	)
-	(wire
-		(pts
-			(xy 309.88 33.02) (xy 307.34 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a56f95bf-0b96-41d2-b001-5bb2adccca51")
 	)
 	(wire
 		(pts
@@ -9042,6 +9183,16 @@
 	)
 	(wire
 		(pts
+			(xy 332.74 130.81) (xy 332.74 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c67d4234-af46-4bba-b0dd-1f25359c1bcd")
+	)
+	(wire
+		(pts
 			(xy 167.64 167.64) (xy 173.99 167.64)
 		)
 		(stroke
@@ -9189,6 +9340,16 @@
 			(type default)
 		)
 		(uuid "d9ffb62a-4f51-4570-a066-1b8b4ad208c8")
+	)
+	(wire
+		(pts
+			(xy 344.17 129.54) (xy 341.63 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da1e3a08-f7da-45bc-a901-e2fa419ce10a")
 	)
 	(wire
 		(pts
@@ -10107,7 +10268,7 @@
 				)
 			)
 		)
-		(property "Voltage Rating" "12V"
+		(property "Voltage Rating" "6.3V"
 			(at 72.39 177.8063 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10119,7 +10280,7 @@
 				(justify left)
 			)
 		)
-		(property "Dielectric" "xxx"
+		(property "Dielectric" "X5R"
 			(at 72.39 179.0763 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10131,7 +10292,7 @@
 				(justify left)
 			)
 		)
-		(property "Tolerance" "x%"
+		(property "Tolerance" "20%"
 			(at 72.39 180.3463 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10141,6 +10302,17 @@
 					(thickness 0.0794)
 				)
 				(justify left)
+			)
+		)
+		(property "LCSC" "C76933"
+			(at 69.85 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -10226,6 +10398,17 @@
 			)
 		)
 		(property "Part Number" "GJM0335C1E2R0WB01"
+			(at 171.45 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C668326"
 			(at 171.45 198.12 0)
 			(hide yes)
 			(show_name no)
@@ -10331,198 +10514,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 309.88 27.94 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0d6f96d5-0605-4d75-946a-5c84061d39ea")
-		(property "Reference" "#PWR015"
-			(at 309.88 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TX3V3"
-			(at 309.88 22.86 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 309.88 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 309.88 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 309.88 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "271227cb-659a-44f3-9079-8a25ed01c725")
-		)
-		(instances
-			(project "Temp-Logger"
-				(path "/9c5f4d5b-9930-4cae-a7d7-03685cadac72/fcea2aa9-9943-4e17-9260-3f9a95f3f7ce/884b15ae-8be4-44a6-965a-c8c9c57e660a"
-					(reference "#PWR015")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "AERO_Resistors:R_0603")
-		(at 267.97 207.01 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "14351e38-3449-425c-8416-1831ac68b00c")
-		(property "Reference" "R42"
-			(at 265.43 205.7401 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100"
-			(at 265.43 208.2801 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 246.38 205.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 267.97 207.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 252.73 207.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power" "100mW"
-			(at 271.526 205.232 90)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 0.635 0.635)
-					(thickness 0.0794)
-				)
-			)
-		)
-		(property "Package" "0603"
-			(at 271.018 207.01 90)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 0.635 0.635)
-					(thickness 0.0794)
-				)
-			)
-		)
-		(property "Tolerance" "x%"
-			(at 270.51 208.788 90)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 0.635 0.635)
-					(thickness 0.0794)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "fd2e42ad-eee5-4aa7-8134-aabb5e242afd")
-		)
-		(pin "1"
-			(uuid "c006db05-df5d-4afc-896d-3b03ad4519e5")
-		)
-		(instances
-			(project "Temp-Logger"
-				(path "/9c5f4d5b-9930-4cae-a7d7-03685cadac72/fcea2aa9-9943-4e17-9260-3f9a95f3f7ce/884b15ae-8be4-44a6-965a-c8c9c57e660a"
-					(reference "R42")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "AERO_Capacitors:C_0201")
 		(at 144.78 224.79 0)
 		(unit 1)
@@ -10589,7 +10580,7 @@
 				)
 			)
 		)
-		(property "Voltage Rating" "12V"
+		(property "Voltage Rating" "50V"
 			(at 147.32 226.0663 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10601,7 +10592,7 @@
 				(justify left)
 			)
 		)
-		(property "Dielectric" "xxx"
+		(property "Dielectric" "C0G"
 			(at 147.32 227.3363 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10613,7 +10604,7 @@
 				(justify left)
 			)
 		)
-		(property "Tolerance" "x%"
+		(property "Tolerance" "±0.25pF"
 			(at 147.32 228.6063 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10623,6 +10614,17 @@
 					(thickness 0.0794)
 				)
 				(justify left)
+			)
+		)
+		(property "LCSC" "C76926"
+			(at 144.78 224.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -10741,6 +10743,17 @@
 					(thickness 0.0794)
 				)
 				(justify right)
+			)
+		)
+		(property "LCSC" "C105870"
+			(at 275.59 149.86 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -11141,7 +11154,7 @@
 				(justify left)
 			)
 		)
-		(property "Dielectric" "xxx"
+		(property "Dielectric" "X5R"
 			(at 52.07 151.1363 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11153,7 +11166,7 @@
 				(justify left)
 			)
 		)
-		(property "Tolerance" "x%"
+		(property "Tolerance" "20%"
 			(at 52.07 152.4063 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11163,6 +11176,17 @@
 					(thickness 0.0794)
 				)
 				(justify left)
+			)
+		)
+		(property "LCSC" "C15525"
+			(at 49.53 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -11606,6 +11630,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C42458750"
+			(at 85.09 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "43"
 			(uuid "0fc6984c-c1e5-4edf-b0d7-2d8a3b75a6dd")
 		)
@@ -11987,6 +12022,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C76927"
+			(at 184.15 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "14582e41-223f-4866-8396-a9134c05e16c")
 		)
@@ -12060,6 +12106,17 @@
 		)
 		(property "Description" "NPN bipolar junction transistor"
 			(at 265.43 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C84555"
+			(at 265.43 217.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12178,7 +12235,7 @@
 				(justify right)
 			)
 		)
-		(property "Tolerance" "x%"
+		(property "Tolerance" "5%"
 			(at 50.8 185.42 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12188,6 +12245,17 @@
 					(thickness 0.0794)
 				)
 				(justify right)
+			)
+		)
+		(property "LCSC" "C100147"
+			(at 48.26 181.61 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -12226,7 +12294,7 @@
 				)
 			)
 		)
-		(property "Value" "100m"
+		(property "Value" "330m"
 			(at 86.36 87.122 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12269,7 +12337,7 @@
 				)
 			)
 		)
-		(property "Power" "250mW"
+		(property "Power" "1W"
 			(at 83.82 89.154 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12281,7 +12349,7 @@
 			)
 		)
 		(property "Package" "1206"
-			(at 87.63 89.154 0)
+			(at 86.614 89.154 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12291,14 +12359,25 @@
 				)
 			)
 		)
-		(property "Tolerance" "x%"
-			(at 90.17 89.154 0)
+		(property "Tolerance" "1%"
+			(at 89.154 89.154 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 0.635 0.635)
 					(thickness 0.0794)
+				)
+			)
+		)
+		(property "LCSC" "C147010"
+			(at 86.36 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -12694,6 +12773,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C167503"
+			(at 196.85 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "5"
 			(uuid "0c3de022-3c0d-41ea-a7e9-cae6450c7dff")
 		)
@@ -12953,6 +13043,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C7216765"
+			(at 152.4 194.31 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "1cc6fe52-5370-4032-b802-d3768ed6637b")
 		)
@@ -12963,92 +13064,6 @@
 			(project "Temp-Logger"
 				(path "/9c5f4d5b-9930-4cae-a7d7-03685cadac72/fcea2aa9-9943-4e17-9260-3f9a95f3f7ce/884b15ae-8be4-44a6-965a-c8c9c57e660a"
 					(reference "L2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Team_512_Oscillators:ECS-320-CDX-2374")
-		(at 158.75 167.64 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "8a1da181-b1d7-4b6b-8060-28d7c6b38fb8")
-		(property "Reference" "Y1"
-			(at 153.416 160.528 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ECS-320-CDX-2374"
-			(at 162.56 162.56 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Team_512_Oscillators:ECS-320-CDX-2374"
-			(at 158.75 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://ecsxtal.com/store/pdf/ECS-320-CDX-2374.pdf"
-			(at 158.75 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 158.75 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "86d1a7aa-a39c-4735-ba7f-c6c0243e5e13")
-		)
-		(pin "4"
-			(uuid "6e0c9974-a360-49f9-8903-27b149c3dbfb")
-		)
-		(pin "1"
-			(uuid "dad12f4b-a1ba-4357-aa40-6bf68d7cfc8d")
-		)
-		(pin "2"
-			(uuid "7dcb114c-9f68-452c-bc14-630a0ae1414b")
-		)
-		(instances
-			(project "Temp-Logger"
-				(path "/9c5f4d5b-9930-4cae-a7d7-03685cadac72/fcea2aa9-9943-4e17-9260-3f9a95f3f7ce/884b15ae-8be4-44a6-965a-c8c9c57e660a"
-					(reference "Y1")
 					(unit 1)
 				)
 			)
@@ -13130,6 +13145,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C3911055"
+			(at 165.1 194.31 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "893f5c89-19ef-490f-84eb-b432c92dee34")
 		)
@@ -13157,7 +13183,7 @@
 		(dnp no)
 		(uuid "92382ef1-05be-4c8f-a919-5843c4032ed9")
 		(property "Reference" "R10"
-			(at 330.2 134.366 0)
+			(at 328.93 136.398 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13167,7 +13193,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 330.2 136.398 0)
+			(at 332.74 136.398 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13239,6 +13265,17 @@
 				(font
 					(size 0.635 0.635)
 					(thickness 0.0794)
+				)
+			)
+		)
+		(property "LCSC" "C177335"
+			(at 330.2 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -13323,6 +13360,17 @@
 			)
 		)
 		(property "Part Number" "LQP03HQ3N5B02"
+			(at 177.8 194.31 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C3911055"
 			(at 177.8 194.31 90)
 			(hide yes)
 			(show_name no)
@@ -13649,6 +13697,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C76799"
+			(at 69.85 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "6f14a4cf-3dc4-47b2-a1e1-e7ab8eeb9524")
 		)
@@ -13737,83 +13796,6 @@
 			(project "Temp-Logger"
 				(path "/9c5f4d5b-9930-4cae-a7d7-03685cadac72/fcea2aa9-9943-4e17-9260-3f9a95f3f7ce/884b15ae-8be4-44a6-965a-c8c9c57e660a"
 					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 307.34 33.02 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a69c6983-700e-4e22-a263-fa01abaa14c4")
-		(property "Reference" "TP8"
-			(at 304.038 27.94 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1.0mm"
-			(at 304.038 30.48 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 307.34 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 307.34 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 307.34 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0b94e71d-e971-4491-9fa5-ee6b4909ac5c")
-		)
-		(instances
-			(project "Temp-Logger"
-				(path "/9c5f4d5b-9930-4cae-a7d7-03685cadac72/fcea2aa9-9943-4e17-9260-3f9a95f3f7ce/884b15ae-8be4-44a6-965a-c8c9c57e660a"
-					(reference "TP8")
 					(unit 1)
 				)
 			)
@@ -14201,7 +14183,7 @@
 				)
 			)
 		)
-		(property "Voltage Rating" "12V"
+		(property "Voltage Rating" "6.3V"
 			(at 182.88 149.8663 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14213,7 +14195,7 @@
 				(justify left)
 			)
 		)
-		(property "Dielectric" "xxx"
+		(property "Dielectric" "X5R"
 			(at 182.88 151.1363 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14225,7 +14207,7 @@
 				(justify left)
 			)
 		)
-		(property "Tolerance" "x%"
+		(property "Tolerance" "20%"
 			(at 182.88 152.4063 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14235,6 +14217,17 @@
 					(thickness 0.0794)
 				)
 				(justify left)
+			)
+		)
+		(property "LCSC Part #" "C284992"
+			(at 180.34 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -14326,6 +14319,98 @@
 			(project "Temp-Logger"
 				(path "/9c5f4d5b-9930-4cae-a7d7-03685cadac72/fcea2aa9-9943-4e17-9260-3f9a95f3f7ce/884b15ae-8be4-44a6-965a-c8c9c57e660a"
 					(reference "TP6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Team_512_Oscillators:SC-20S,32.768kHz,20PPM,9pF")
+		(at 332.74 128.27 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bb833b87-5b4c-4b45-bb3d-bf5e119b81f2")
+		(property "Reference" "Y5"
+			(at 330.2 126.9999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SC-20S,32.768kHz,20PPM,9pF"
+			(at 330.2 129.5399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Team_512_Oscillators:SC-20S,32.768kHz,20PPM,9pF"
+			(at 332.74 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.sii.co.jp/hubfs/SC-20S_Leaflet_e20151217.pdf"
+			(at 332.74 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Two pin crystal, small symbol"
+			(at 332.74 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C97603"
+			(at 332.74 128.27 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "10065722-51aa-489f-a814-dd2b6b8a7a46")
+		)
+		(pin "1"
+			(uuid "6d9ca81b-c3d4-49ac-b04c-918496877cd1")
+		)
+		(instances
+			(project "Temp-Logger"
+				(path "/9c5f4d5b-9930-4cae-a7d7-03685cadac72/fcea2aa9-9943-4e17-9260-3f9a95f3f7ce/884b15ae-8be4-44a6-965a-c8c9c57e660a"
+					(reference "Y5")
 					(unit 1)
 				)
 			)
@@ -14577,7 +14662,7 @@
 		(dnp no)
 		(uuid "bec429aa-48da-4928-826f-b6e16b7d1fd2")
 		(property "Reference" "R11"
-			(at 330.2 149.606 0)
+			(at 328.93 149.86 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14587,7 +14672,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 330.2 151.638 0)
+			(at 332.74 149.86 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14630,7 +14715,7 @@
 			)
 		)
 		(property "Power" "100mW"
-			(at 327.66 153.162 0)
+			(at 327.66 151.384 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -14641,7 +14726,7 @@
 			)
 		)
 		(property "Package" "0603"
-			(at 331.47 153.162 0)
+			(at 331.47 151.384 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -14652,13 +14737,24 @@
 			)
 		)
 		(property "Tolerance" "x%"
-			(at 334.01 153.162 0)
+			(at 334.01 151.384 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 0.635 0.635)
 					(thickness 0.0794)
+				)
+			)
+		)
+		(property "LCSC" "C177335"
+			(at 330.2 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -14822,7 +14918,7 @@
 				)
 			)
 		)
-		(property "Voltage Rating" "12V"
+		(property "Voltage Rating" "6.3V"
 			(at 172.72 149.8663 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14834,7 +14930,7 @@
 				(justify left)
 			)
 		)
-		(property "Dielectric" "xxx"
+		(property "Dielectric" "X5R"
 			(at 172.72 151.1363 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14846,7 +14942,7 @@
 				(justify left)
 			)
 		)
-		(property "Tolerance" "x%"
+		(property "Tolerance" "20%"
 			(at 172.72 152.4063 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14856,6 +14952,17 @@
 					(thickness 0.0794)
 				)
 				(justify left)
+			)
+		)
+		(property "LCSC Part #" "C284992"
+			(at 170.18 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -14941,6 +15048,17 @@
 			)
 		)
 		(property "Part Number" "GJM0335C1E1R5WB01"
+			(at 158.75 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C435397"
 			(at 158.75 198.12 0)
 			(hide yes)
 			(show_name no)
@@ -15123,6 +15241,135 @@
 		)
 	)
 	(symbol
+		(lib_id "AERO_Resistors:R_0402")
+		(at 267.97 207.01 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d2728f14-f4e2-4211-ad4b-5e1417223a58")
+		(property "Reference" "R43"
+			(at 270.51 203.8349 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100"
+			(at 270.51 206.3749 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 268.224 205.994 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 267.97 207.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 267.97 207.01 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power" "62.5mW"
+			(at 270.51 208.28 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.635 0.635)
+					(thickness 0.0794)
+				)
+				(justify right)
+			)
+		)
+		(property "Package" "0402"
+			(at 270.51 209.55 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.635 0.635)
+					(thickness 0.0794)
+				)
+				(justify right)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 270.51 210.82 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.635 0.635)
+					(thickness 0.0794)
+				)
+				(justify right)
+			)
+		)
+		(property "LCSC" "C82865"
+			(at 267.97 207.01 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2fa0c8ca-1b42-47ac-92bb-8d3d1a1afa2e")
+		)
+		(pin "2"
+			(uuid "c74db145-2adb-4d21-a701-47f19377a2d1")
+		)
+		(instances
+			(project "Temp-Logger"
+				(path "/9c5f4d5b-9930-4cae-a7d7-03685cadac72/fcea2aa9-9943-4e17-9260-3f9a95f3f7ce/884b15ae-8be4-44a6-965a-c8c9c57e660a"
+					(reference "R43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "AERO_Resistors:R_0201")
 		(at 175.26 213.36 0)
 		(unit 1)
@@ -15208,7 +15455,7 @@
 				)
 			)
 		)
-		(property "Tolerance" "x%"
+		(property "Tolerance" "5%"
 			(at 178.308 215.646 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15216,6 +15463,17 @@
 				(font
 					(size 0.635 0.635)
 					(thickness 0.0794)
+				)
+			)
+		)
+		(property "LCSC" "C131396"
+			(at 175.26 213.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -15301,7 +15559,7 @@
 				)
 			)
 		)
-		(property "Voltage Rating" "12V"
+		(property "Voltage Rating" "6.3V"
 			(at 60.96 149.8663 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15313,7 +15571,7 @@
 				(justify left)
 			)
 		)
-		(property "Dielectric" "xxx"
+		(property "Dielectric" "X5R"
 			(at 60.96 151.1363 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15325,7 +15583,7 @@
 				(justify left)
 			)
 		)
-		(property "Tolerance" "x%"
+		(property "Tolerance" "20%"
 			(at 60.96 152.4063 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15335,6 +15593,17 @@
 					(thickness 0.0794)
 				)
 				(justify left)
+			)
+		)
+		(property "LCSC" "C284992"
+			(at 58.42 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -15347,6 +15616,102 @@
 			(project "Temp-Logger"
 				(path "/9c5f4d5b-9930-4cae-a7d7-03685cadac72/fcea2aa9-9943-4e17-9260-3f9a95f3f7ce/884b15ae-8be4-44a6-965a-c8c9c57e660a"
 					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Team_512_Oscillators:ECS-320-8-37B-CKY-TR")
+		(at 158.75 167.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d66a4bd0-3ed0-43c8-8e8f-f24de7753bd6")
+		(property "Reference" "Y1"
+			(at 158.75 160.528 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ECS-320-8-37B-CKY-TR"
+			(at 158.75 162.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Team_512_Oscillators:ECS-320-8-37B-CKY-TR"
+			(at 158.75 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://ecsxtal.com/store/pdf/ECX-1637B.pdf"
+			(at 158.75 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 158.75 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2636238"
+			(at 158.75 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "0d63aaf7-3077-464c-8286-cb769abe1258")
+		)
+		(pin "3"
+			(uuid "e208f5b0-7387-470b-a841-4119cce06132")
+		)
+		(pin "1"
+			(uuid "364332e2-4cc2-4b4a-a0b7-9389a661f13d")
+		)
+		(pin "2"
+			(uuid "61d81352-c2fd-4a74-8694-1b3fcfea4a4f")
+		)
+		(instances
+			(project "Temp-Logger"
+				(path "/9c5f4d5b-9930-4cae-a7d7-03685cadac72/fcea2aa9-9943-4e17-9260-3f9a95f3f7ce/884b15ae-8be4-44a6-965a-c8c9c57e660a"
+					(reference "Y1")
 					(unit 1)
 				)
 			)
@@ -15575,7 +15940,7 @@
 				)
 			)
 		)
-		(property "Voltage Rating" "12V"
+		(property "Voltage Rating" "6.3V"
 			(at 162.56 149.8663 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15587,7 +15952,7 @@
 				(justify left)
 			)
 		)
-		(property "Dielectric" "xxx"
+		(property "Dielectric" "X5R"
 			(at 162.56 151.1363 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15599,7 +15964,7 @@
 				(justify left)
 			)
 		)
-		(property "Tolerance" "x%"
+		(property "Tolerance" "20%"
 			(at 162.56 152.4063 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15609,6 +15974,17 @@
 					(thickness 0.0794)
 				)
 				(justify left)
+			)
+		)
+		(property "LCSC Part #" "C284992"
+			(at 160.02 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -15909,6 +16285,17 @@
 		)
 		(property "Description" "Push button switch, generic, two pins"
 			(at 187.96 222.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C221675"
+			(at 187.96 222.25 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16271,6 +16658,17 @@
 				(justify right)
 			)
 		)
+		(property "LCSC" "C105870"
+			(at 287.02 149.86 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9d4ddf06-bb60-4d70-9103-35c7ca8d8b1c")
 		)
@@ -16355,6 +16753,17 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 267.97 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C913075"
+			(at 267.97 198.12 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
