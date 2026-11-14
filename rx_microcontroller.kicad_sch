@@ -11824,7 +11824,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "34f467e3-3129-4a2a-95a3-0341508d6206")
 		(property "Reference" "J11"
@@ -12601,7 +12601,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "42d280b0-6dc5-4621-9dc4-55f7be41fe12")
 		(property "Reference" "J12"
 			(at 271.018 173.736 0)
@@ -12909,7 +12909,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "452006be-3a5b-4fa9-8e06-b827c24e2966")
 		(property "Reference" "J13"
 			(at 301.244 200.406 0)

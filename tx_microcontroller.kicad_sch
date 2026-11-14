@@ -1614,6 +1614,9 @@
 			(embedded_fonts no)
 		)
 		(symbol "Connector_Generic:Conn_01x02"
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 1.016)
 				(hide yes)
